@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="28" failures="3" name="TestSuite" time="78.258" errors="0" skipped="0">
+<testsuite tests="28" failures="3" name="TestSuite" time="81.77" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
     <property name="java.vm.version" value="25.181-b25"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\EclipseWorkspace\IPVS-STH-SANITY"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\426525\git\IPVS-STH-SANITY"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\EclipseWorkspace\IPVS-STH-SANITY"/>
+    <property name="user.dir" value="C:\Users\426525\git\IPVS-STH-SANITY"/>
     <property name="java.runtime.version" value="1.8.0_181-b25"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\EclipseWorkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4492312727412771378.tmp"/>
+    <property name="classworlds.conf" value="C:\EclipseWorkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1090383908988593818.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Development_Avecto\eclipse-jee-oxygen-M2-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install test -DhttpResults=true"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install -DhttpResults=true"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -53,7 +53,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\EclipseWorkspace\IPVS-STH-SANITY\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\426525\git\IPVS-STH-SANITY\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -62,20 +62,16 @@
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="httpResults" value="true"/>
   </properties>
-  <testcase classname="sth.ipvs.IPVSCapabilitiesTest" name="ipvscapabilitiescallCHTR" time="3.16"/>
-  <testcase classname="sth.ipvs.IPVSCapabilitiesTest" name="ipvscapabilitiescallTWC" time="0.412"/>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="ChannelsapiCHTR" time="8.245"/>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="ChannelsapiTWC" time="7.279"/>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="adobesessionCHTR" time="30.439">
-    <failure message="error getting json data from https://pi.engnew-spectrum.net/ipvs/api/eas/v1/storecustomerfips?customerGuid=51585793&amp;ip=1.1.1.1&amp;mso=CHARTER&amp;requestId=STHAdobeSession-Charter:
+  <testcase classname="sth.ipvs.IPVSCapabilitiesTest" name="ipvscapabilitiescallCHTR" time="33.353">
+    <failure message="error getting json data from https://pi.engnew-spectrum.net/api/smarttv/user/capabilities/v3?customerGuid=51585793&amp;ip=1.1.1.1&amp;mso=CHARTER&amp;requestId=STHCapabilitiesCheck-Charter:
 HttpResponse:
 HTTP/1.1 504 Gateway Timeout
 Connection: keep-alive
 Content-Length: 176
 Content-Type: text/html
-Date: Mon, 14 Jan 2019 07:54:47 GMT
+Date: Mon, 14 Jan 2019 12:21:12 GMT
 Server: openresty
-x-trace-id: 5ea609f28177-4dab-0000000000154ecb
+x-trace-id: 5ea609f28177-4daa-000000000008b461
 
 &lt;html&gt;
 &lt;head&gt;&lt;title&gt;504 Gateway Time-out&lt;/title&gt;&lt;/head&gt;
@@ -84,15 +80,15 @@ x-trace-id: 5ea609f28177-4dab-0000000000154ecb
 &lt;hr&gt;&lt;center&gt;nginx&lt;/center&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-" type="java.lang.RuntimeException">java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/ipvs/api/eas/v1/storecustomerfips?customerGuid=51585793&amp;ip=1.1.1.1&amp;mso=CHARTER&amp;requestId=STHAdobeSession-Charter:
+" type="java.lang.RuntimeException">java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/api/smarttv/user/capabilities/v3?customerGuid=51585793&amp;ip=1.1.1.1&amp;mso=CHARTER&amp;requestId=STHCapabilitiesCheck-Charter:
 HttpResponse:
 HTTP/1.1 504 Gateway Timeout
 Connection: keep-alive
 Content-Length: 176
 Content-Type: text/html
-Date: Mon, 14 Jan 2019 07:54:47 GMT
+Date: Mon, 14 Jan 2019 12:21:12 GMT
 Server: openresty
-x-trace-id: 5ea609f28177-4dab-0000000000154ecb
+x-trace-id: 5ea609f28177-4daa-000000000008b461
 &lt;html&gt;
 &lt;head&gt;&lt;title&gt;504 Gateway Time-out&lt;/title&gt;&lt;/head&gt;
 &lt;body bgcolor=&quot;white&quot;&gt;
@@ -102,41 +98,37 @@ x-trace-id: 5ea609f28177-4dab-0000000000154ecb
 &lt;/html&gt;
 
 	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:38)
-	at sth.ipvs.IPVSSmartTvTest.adobesessionCHTR(IPVSSmartTvTest.java:358)
+	at sth.ipvs.IPVSCapabilitiesTest.ipvscapabilitiescallCHTR(IPVSCapabilitiesTest.java:31)
 </failure>
-    <system-out>2019-01-14 13:24:16,329 [main] INFO  LoggingReporter:17 - {
-   &quot;product&quot; : &quot;IPVS-Demo&quot;,
-   &quot;group&quot; : &quot;IPVSSmartTv&quot;,
-   &quot;name&quot; : &quot;ChannelsapiTWC&quot;,
-   &quot;description&quot; : &quot;Testing TWC Account IPVS Channels api Integration into STH /api/smarttv/channels/v2 STHChannels-TWC&quot;,
-   &quot;status&quot; : &quot;PASS&quot;,
-   &quot;duration&quot; : 7268,
-   &quot;productVersion&quot; : &quot;demo-0.0.1&quot;,
-   &quot;platform&quot; : &quot;engnew&quot;,
-   &quot;username&quot; : &quot;426525&quot;
-}
-2019-01-14 13:24:16,965 [main] INFO  IPVSSmartTvTest:68 - ########################################################################
-2019-01-14 13:24:16,965 [main] INFO  IPVSSmartTvTest:69 - ### adobesessionCHTR
-2019-01-14 13:24:16,965 [main] INFO  IPVSSmartTvTest:71 - ### Testing CHTR Account IPVS adobe session api Integration into STH api/smarttv/adobe/session STHAdobeSession-Charter
-2019-01-14 13:24:16,965 [main] INFO  IPVSSmartTvTest:73 - ########################################################################
-2019-01-14 13:24:16,967 [main] INFO  RequestFactory:44 - GET https://pi.engnew-spectrum.net/ipvs/api/eas/v1/storecustomerfips?customerGuid=51585793&amp;ip=1.1.1.1&amp;mso=CHARTER&amp;requestId=STHAdobeSession-Charter
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@707f7052
+2019-01-14 17:50:39,094 [main] INFO  HTTPReporter:20 - http reporter initializing: http://atf-reporter.dev-spectrum.net/atf-reporter/result/collector
+2019-01-14 17:50:39,099 [main] INFO  IPVSCapabilitiesTest:77 - Done initializing HTTP reporter with reporting endpoint = http://atf-reporter.dev-spectrum.net/atf-reporter/result/collector
+2019-01-14 17:50:39,124 [main] INFO  IPVSCapabilitiesTest:68 - ########################################################################
+2019-01-14 17:50:39,124 [main] INFO  IPVSCapabilitiesTest:69 - ### ipvscapabilitiescallCHTR
+2019-01-14 17:50:39,124 [main] INFO  IPVSCapabilitiesTest:71 - ### Testing Charter Account IPVS Capabilities call Integration into STH /api/smarttv/user/capabilities - STHCapabilitiesCheck-Charter
+2019-01-14 17:50:39,124 [main] INFO  IPVSCapabilitiesTest:73 - ########################################################################
+2019-01-14 17:50:39,145 [main] INFO  RequestFactory:44 - GET https://pi.engnew-spectrum.net/api/smarttv/user/capabilities/v3?customerGuid=51585793&amp;ip=1.1.1.1&amp;mso=CHARTER&amp;requestId=STHCapabilitiesCheck-Charter
 </system-out>
   </testcase>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="adobesessionTWC" time="0.4"/>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="bookmarksapiCHTR" time="0.54"/>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="bookmarksapiTWC" time="0.488"/>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="cdvrgetrecordingsapiCHTR" time="0.306">
+  <testcase classname="sth.ipvs.IPVSCapabilitiesTest" name="ipvscapabilitiescallTWC" time="0.535"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="ChannelsapiCHTR" time="6.482"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="ChannelsapiTWC" time="5.819"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="adobesessionCHTR" time="0.766"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="adobesessionTWC" time="0.751"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="bookmarksapiCHTR" time="1.173"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="bookmarksapiTWC" time="1.25"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="cdvrgetrecordingsapiCHTR" time="0.383">
     <failure message="error getting json data from https://pi.engnew-spectrum.net/kumodvr/api/cdvr/v1/users/46bcef3d943720ca9a701506b3780ebe/recordings?status=ALL&amp;requestId=STHGetRecordings-Charter:
 HttpResponse:
 HTTP/1.1 403 Forbidden
 Connection: keep-alive
 Content-Length: 10
 Content-Type: text/plain
-Date: Mon, 14 Jan 2019 07:54:51 GMT
+Date: Mon, 14 Jan 2019 12:21:33 GMT
 Server: openresty
 Transfer-Encoding: chunked
 X-PI-Auth-Failure: 9001
-x-trace-id: 5ea609f28177-4dab-0000000000154f12
+x-trace-id: 5ea609f28177-4daa-000000000008b4d9
 
 Forbidden
 " type="java.lang.RuntimeException">java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/kumodvr/api/cdvr/v1/users/46bcef3d943720ca9a701506b3780ebe/recordings?status=ALL&amp;requestId=STHGetRecordings-Charter:
@@ -145,46 +137,46 @@ HTTP/1.1 403 Forbidden
 Connection: keep-alive
 Content-Length: 10
 Content-Type: text/plain
-Date: Mon, 14 Jan 2019 07:54:51 GMT
+Date: Mon, 14 Jan 2019 12:21:33 GMT
 Server: openresty
 Transfer-Encoding: chunked
 X-PI-Auth-Failure: 9001
-x-trace-id: 5ea609f28177-4dab-0000000000154f12
+x-trace-id: 5ea609f28177-4daa-000000000008b4d9
 Forbidden
 
 	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:38)
 	at sth.ipvs.IPVSSmartTvTest.cdvrgetrecordingsapiCHTR(IPVSSmartTvTest.java:396)
 </failure>
-    <system-out>2019-01-14 13:24:50,441 [main] INFO  LoggingReporter:17 - {
+    <system-out>2019-01-14 17:51:33,270 [main] INFO  LoggingReporter:17 - {
    &quot;product&quot; : &quot;IPVS-Demo&quot;,
    &quot;group&quot; : &quot;IPVSSmartTv&quot;,
    &quot;name&quot; : &quot;bookmarksapiTWC&quot;,
    &quot;description&quot; : &quot;Testing TWC Account IPVS BookMarks api Integration into STH /api/smarttv/bookmarks/v2 STHBookMark-TWC&quot;,
    &quot;status&quot; : &quot;PASS&quot;,
-   &quot;duration&quot; : 489,
+   &quot;duration&quot; : 1254,
    &quot;productVersion&quot; : &quot;demo-0.0.1&quot;,
    &quot;platform&quot; : &quot;engnew&quot;,
    &quot;username&quot; : &quot;426525&quot;
 }
-2019-01-14 13:24:50,763 [main] INFO  IPVSSmartTvTest:68 - ########################################################################
-2019-01-14 13:24:50,764 [main] INFO  IPVSSmartTvTest:69 - ### cdvrgetrecordingsapiCHTR
-2019-01-14 13:24:50,764 [main] INFO  IPVSSmartTvTest:71 - ### Testing CHTR Account IPVS CDVR get recordings api Integration into STH kumodvr/api/cdvr/v1/users/&lt;ownerid&gt;/recordings STHGetRecordings-Charter
-2019-01-14 13:24:50,764 [main] INFO  IPVSSmartTvTest:73 - ########################################################################
-2019-01-14 13:24:50,765 [main] INFO  RequestFactory:44 - GET https://pi.engnew-spectrum.net/kumodvr/api/cdvr/v1/users/46bcef3d943720ca9a701506b3780ebe/recordings?status=ALL&amp;requestId=STHGetRecordings-Charter
+2019-01-14 17:51:33,602 [main] INFO  IPVSSmartTvTest:68 - ########################################################################
+2019-01-14 17:51:33,602 [main] INFO  IPVSSmartTvTest:69 - ### cdvrgetrecordingsapiCHTR
+2019-01-14 17:51:33,602 [main] INFO  IPVSSmartTvTest:71 - ### Testing CHTR Account IPVS CDVR get recordings api Integration into STH kumodvr/api/cdvr/v1/users/&lt;ownerid&gt;/recordings STHGetRecordings-Charter
+2019-01-14 17:51:33,603 [main] INFO  IPVSSmartTvTest:73 - ########################################################################
+2019-01-14 17:51:33,604 [main] INFO  RequestFactory:44 - GET https://pi.engnew-spectrum.net/kumodvr/api/cdvr/v1/users/46bcef3d943720ca9a701506b3780ebe/recordings?status=ALL&amp;requestId=STHGetRecordings-Charter
 </system-out>
   </testcase>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="cdvrgetrecordingsapiTWC" time="0.31">
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="cdvrgetrecordingsapiTWC" time="0.33">
     <failure message="error getting json data from https://pi.engnew-spectrum.net/kumodvr/api/cdvr/v1/users/4e09854aaf4992240be1cc6935861c4e/recordings?status=ALL&amp;requestId=STHGetRecordings-TWC:
 HttpResponse:
 HTTP/1.1 403 Forbidden
 Connection: keep-alive
 Content-Length: 10
 Content-Type: text/plain
-Date: Mon, 14 Jan 2019 07:54:52 GMT
+Date: Mon, 14 Jan 2019 12:21:34 GMT
 Server: openresty
 Transfer-Encoding: chunked
 X-PI-Auth-Failure: 9001
-x-trace-id: 5ea609f28177-4dab-0000000000154f14
+x-trace-id: 5ea609f28177-4daa-000000000008b4da
 
 Forbidden
 " type="java.lang.RuntimeException">java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/kumodvr/api/cdvr/v1/users/4e09854aaf4992240be1cc6935861c4e/recordings?status=ALL&amp;requestId=STHGetRecordings-TWC:
@@ -193,28 +185,28 @@ HTTP/1.1 403 Forbidden
 Connection: keep-alive
 Content-Length: 10
 Content-Type: text/plain
-Date: Mon, 14 Jan 2019 07:54:52 GMT
+Date: Mon, 14 Jan 2019 12:21:34 GMT
 Server: openresty
 Transfer-Encoding: chunked
 X-PI-Auth-Failure: 9001
-x-trace-id: 5ea609f28177-4dab-0000000000154f14
+x-trace-id: 5ea609f28177-4daa-000000000008b4da
 Forbidden
 
 	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:38)
 	at sth.ipvs.IPVSSmartTvTest.cdvrgetrecordingsapiTWC(IPVSSmartTvTest.java:407)
 </failure>
-    <system-out>2019-01-14 13:24:51,072 [main] ERROR IPVSSmartTvTest:134 - Error thrown by test: null
+    <system-out>2019-01-14 17:51:33,978 [main] ERROR IPVSSmartTvTest:134 - Error thrown by test: null
 java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/kumodvr/api/cdvr/v1/users/46bcef3d943720ca9a701506b3780ebe/recordings?status=ALL&amp;requestId=STHGetRecordings-Charter:
 HttpResponse:
 HTTP/1.1 403 Forbidden
 Connection: keep-alive
 Content-Length: 10
 Content-Type: text/plain
-Date: Mon, 14 Jan 2019 07:54:51 GMT
+Date: Mon, 14 Jan 2019 12:21:33 GMT
 Server: openresty
 Transfer-Encoding: chunked
 X-PI-Auth-Failure: 9001
-x-trace-id: 5ea609f28177-4dab-0000000000154f12
+x-trace-id: 5ea609f28177-4daa-000000000008b4d9
 
 Forbidden
 
@@ -255,41 +247,41 @@ Forbidden
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-2019-01-14 13:24:51,073 [main] INFO  LoggingReporter:17 - {
+2019-01-14 17:51:33,979 [main] INFO  LoggingReporter:17 - {
    &quot;product&quot; : &quot;IPVS-Demo&quot;,
    &quot;group&quot; : &quot;IPVSSmartTv&quot;,
    &quot;name&quot; : &quot;cdvrgetrecordingsapiCHTR&quot;,
    &quot;description&quot; : &quot;Testing CHTR Account IPVS CDVR get recordings api Integration into STH kumodvr/api/cdvr/v1/users/&lt;ownerid&gt;/recordings STHGetRecordings-Charter&quot;,
    &quot;status&quot; : &quot;ERROR&quot;,
    &quot;runDescription&quot; : &quot;RuntimeException: error getting json data from https://pi.engnew-spectrum.net/kumodvr/api/cdvr/v1/users/46bcef3d943720ca9a701506b3780ebe/recordings?status=ALL&amp;requestId=STHGetRecordings-Charter:\nHttpResponse:\nHTTP/1.1 403 Forbidden\nConnection: keep-alive\nContent-Length: 10\nContent-Type: text/plain\nDate: Mon, 14 Jan 2&quot;,
-   &quot;duration&quot; : 307,
+   &quot;duration&quot; : 375,
    &quot;productVersion&quot; : &quot;demo-0.0.1&quot;,
    &quot;platform&quot; : &quot;engnew&quot;,
    &quot;username&quot; : &quot;426525&quot;
 }
-2019-01-14 13:24:51,392 [main] INFO  IPVSSmartTvTest:68 - ########################################################################
-2019-01-14 13:24:51,393 [main] INFO  IPVSSmartTvTest:69 - ### cdvrgetrecordingsapiTWC
-2019-01-14 13:24:51,393 [main] INFO  IPVSSmartTvTest:71 - ### Testing TWC Account IPVS CDVR get recordings api Integration into STH kumodvr/api/cdvr/v1/users/&lt;ownerid&gt;/recordings STHGetRecordings-TWC
-2019-01-14 13:24:51,393 [main] INFO  IPVSSmartTvTest:73 - ########################################################################
-2019-01-14 13:24:51,394 [main] INFO  RequestFactory:44 - GET https://pi.engnew-spectrum.net/kumodvr/api/cdvr/v1/users/4e09854aaf4992240be1cc6935861c4e/recordings?status=ALL&amp;requestId=STHGetRecordings-TWC
+2019-01-14 17:51:34,329 [main] INFO  IPVSSmartTvTest:68 - ########################################################################
+2019-01-14 17:51:34,329 [main] INFO  IPVSSmartTvTest:69 - ### cdvrgetrecordingsapiTWC
+2019-01-14 17:51:34,330 [main] INFO  IPVSSmartTvTest:71 - ### Testing TWC Account IPVS CDVR get recordings api Integration into STH kumodvr/api/cdvr/v1/users/&lt;ownerid&gt;/recordings STHGetRecordings-TWC
+2019-01-14 17:51:34,330 [main] INFO  IPVSSmartTvTest:73 - ########################################################################
+2019-01-14 17:51:34,331 [main] INFO  RequestFactory:44 - GET https://pi.engnew-spectrum.net/kumodvr/api/cdvr/v1/users/4e09854aaf4992240be1cc6935861c4e/recordings?status=ALL&amp;requestId=STHGetRecordings-TWC
 </system-out>
   </testcase>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="favoritesChannelapiCHTR" time="0.408"/>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="favoritesChannelapiTWC" time="0.393"/>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="fipsapiCHTR" time="0.41"/>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="fipsapiTWC" time="0.412"/>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="guidegridapiCHTR" time="1.421"/>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="guidegridapiTWC" time="1.155"/>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="lineupapiCHTR" time="0.38"/>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="linuepapiTWC" time="0.423"/>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="locationapiCHTR" time="0.408"/>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="locationapiTWC" time="0.45"/>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="parentalBlockedChannelsapiCHTR" time="10.372"/>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="parentalBlockedChannelsapiTWC" time="7.685"/>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="parentalcontrolcallCHTR" time="0.412"/>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="parentalcontrolcallTWC" time="0.428"/>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="parentalratingapiTWC" time="0.39"/>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="parentalratingsapiCHTR" time="0.418"/>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="watchListapiCHTR" time="0.598"/>
-  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="watchListapiTWC" time="0.516"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="favoritesChannelapiCHTR" time="0.398"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="favoritesChannelapiTWC" time="0.402"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="fipsapiCHTR" time="0.421"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="fipsapiTWC" time="0.392"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="guidegridapiCHTR" time="1.303"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="guidegridapiTWC" time="1.256"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="lineupapiCHTR" time="0.388"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="linuepapiTWC" time="0.385"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="locationapiCHTR" time="0.423"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="locationapiTWC" time="0.417"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="parentalBlockedChannelsapiCHTR" time="12.091"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="parentalBlockedChannelsapiTWC" time="9.579"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="parentalcontrolcallCHTR" time="0.41"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="parentalcontrolcallTWC" time="0.411"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="parentalratingapiTWC" time="0.389"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="parentalratingsapiCHTR" time="0.407"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="watchListapiCHTR" time="1.226"/>
+  <testcase classname="sth.ipvs.IPVSSmartTvTest" name="watchListapiTWC" time="0.63"/>
 </testsuite>
