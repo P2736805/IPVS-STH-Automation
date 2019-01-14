@@ -1,0 +1,59 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 28, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 92.987 sec <<< FAILURE!
+adobesessionCHTR(sth.ipvs.IPVSSmartTvTest)  Time elapsed: 30.439 sec  <<< FAILURE!
+java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/ipvs/api/eas/v1/storecustomerfips?customerGuid=51585793&ip=1.1.1.1&mso=CHARTER&requestId=STHAdobeSession-Charter:
+HttpResponse:
+HTTP/1.1 504 Gateway Timeout
+Connection: keep-alive
+Content-Length: 176
+Content-Type: text/html
+Date: Mon, 14 Jan 2019 07:54:47 GMT
+Server: openresty
+x-trace-id: 5ea609f28177-4dab-0000000000154ecb
+<html>
+<head><title>504 Gateway Time-out</title></head>
+<body bgcolor="white">
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:38)
+	at sth.ipvs.IPVSSmartTvTest.adobesessionCHTR(IPVSSmartTvTest.java:358)
+
+cdvrgetrecordingsapiCHTR(sth.ipvs.IPVSSmartTvTest)  Time elapsed: 0.306 sec  <<< FAILURE!
+java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/kumodvr/api/cdvr/v1/users/46bcef3d943720ca9a701506b3780ebe/recordings?status=ALL&requestId=STHGetRecordings-Charter:
+HttpResponse:
+HTTP/1.1 403 Forbidden
+Connection: keep-alive
+Content-Length: 10
+Content-Type: text/plain
+Date: Mon, 14 Jan 2019 07:54:51 GMT
+Server: openresty
+Transfer-Encoding: chunked
+X-PI-Auth-Failure: 9001
+x-trace-id: 5ea609f28177-4dab-0000000000154f12
+Forbidden
+
+	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:38)
+	at sth.ipvs.IPVSSmartTvTest.cdvrgetrecordingsapiCHTR(IPVSSmartTvTest.java:396)
+
+cdvrgetrecordingsapiTWC(sth.ipvs.IPVSSmartTvTest)  Time elapsed: 0.31 sec  <<< FAILURE!
+java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/kumodvr/api/cdvr/v1/users/4e09854aaf4992240be1cc6935861c4e/recordings?status=ALL&requestId=STHGetRecordings-TWC:
+HttpResponse:
+HTTP/1.1 403 Forbidden
+Connection: keep-alive
+Content-Length: 10
+Content-Type: text/plain
+Date: Mon, 14 Jan 2019 07:54:52 GMT
+Server: openresty
+Transfer-Encoding: chunked
+X-PI-Auth-Failure: 9001
+x-trace-id: 5ea609f28177-4dab-0000000000154f14
+Forbidden
+
+	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:38)
+	at sth.ipvs.IPVSSmartTvTest.cdvrgetrecordingsapiTWC(IPVSSmartTvTest.java:407)
+
