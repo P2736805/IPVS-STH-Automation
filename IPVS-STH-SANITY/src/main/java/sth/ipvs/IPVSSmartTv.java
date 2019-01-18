@@ -131,17 +131,13 @@ public class IPVSSmartTv extends CustomRequest {
     	return this;
     }
     
-    public IPVSSmartTv owneridcharter() {
-    	String ownerid = props.cdvrUrlCHTR();
-    	String Url = String.format("kumodvr/api/cdvr/v1/users/%s/recordings", ownerid);
-    	request.path(Url);
+    public IPVSSmartTv getrecordingschtr() {
+    	request.path("ipvs/api/smarttv/cdvr/v1/programs");
     	return this;
     }
     
-    public IPVSSmartTv owneridtwc() {
-    	String ownerid = props.cdvrUrlTWC();
-    	String Url = String.format("kumodvr/api/cdvr/v1/users/%s/recordings", ownerid);
-    	request.path(Url);
+    public IPVSSmartTv getrecordingstwc() {
+    	request.path("ipvs/api/smarttv/cdvr/v1/programs");
     	return this;
     }
 }
