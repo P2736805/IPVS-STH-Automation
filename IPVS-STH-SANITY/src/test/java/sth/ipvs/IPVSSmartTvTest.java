@@ -390,8 +390,9 @@ public class IPVSSmartTvTest extends IPVSBaseTest {
 	@TestDescription("Testing CHTR Account IPVS CDVR get recordings api Integration into STH kumodvr/api/cdvr/v1/users/<ownerid>/recordings STHGetRecordings-Charter")
 	public void cdvrgetrecordingsapiCHTR() {
 		JSON response = executeSmartv().piauthentication()
-					.owneridcharter()
-					.query("status", "ALL")
+					.getrecordingschtr()
+					.query("customerGuid", "51585793")
+					.query("mso", "CHARTER")
 					.query("requestId", "STHGetRecordings-Charter")
 					.getJson();
 		/*System.out.println(response);*/
@@ -401,8 +402,9 @@ public class IPVSSmartTvTest extends IPVSBaseTest {
 	@TestDescription("Testing TWC Account IPVS CDVR get recordings api Integration into STH kumodvr/api/cdvr/v1/users/<ownerid>/recordings STHGetRecordings-TWC")
 	public void cdvrgetrecordingsapiTWC() {
 		JSON response = executeSmartv().piauthentication()
-					.owneridtwc()
-					.query("status", "ALL")
+					.getrecordingstwc()
+					.query("customerGuid", "E4EDB341-C62E-E826-7D49-8514CCAB93E9")
+					.query("mso", "TWC")
 					.query("requestId", "STHGetRecordings-TWC")
 					.getJson();
 		/*System.out.println(response);*/
