@@ -24,7 +24,7 @@ public class IPVSCapabilitiesTest extends IPVSBaseTest {
 	public void ipvscapabilitiescallCHTR() {
 		JSON response = execute().path()
 								 .piauthentication()
-								 .query("customerGuid", "51585793")
+								 .query("customerGuid", "44188796")
 								 .query("ip", "1.1.1.1")
 								 .query("mso", "CHARTER")
 								 .query("requestId", "STHCapabilitiesCheck-Charter")
