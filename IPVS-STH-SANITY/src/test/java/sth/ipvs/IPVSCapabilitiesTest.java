@@ -16,6 +16,7 @@ import sth.ipvs.IPVSCapabilities;
 import sth.ipvs.IPVSBaseTest;
 
 
+
 @Group("IPVSCapabilities")
 public class IPVSCapabilitiesTest extends IPVSBaseTest {
 
@@ -24,12 +25,15 @@ public class IPVSCapabilitiesTest extends IPVSBaseTest {
 	public void ipvscapabilitiescallCHTR() {
 		JSON response = execute().path()
 								 .piauthentication()
-								 .query("customerGuid", "44188796")
+								 .query("customerGuid", "44188555")
 								 .query("ip", "1.1.1.1")
 								 .query("mso", "CHARTER")
 								 .query("requestId", "STHCapabilitiesCheck-Charter")
 								 .getJson();
-		System.out.println(response);
+		
+		JSON watchlive = response.get("watchlive");		
+		Boolean result = watchlive.get("authorized");
+		System.out.println(result);
 	}
 	
 	@Test
