@@ -4,6 +4,7 @@ import sth.http.client.Request;
 import sth.http.client.RequestExecutor;
 import sth.http.client.RequestFactory;
 import sth.http.client.Response;
+import sth.http.common.HttpStatus;
 import sth.json.JSON;
 import sth.xml.XML;
 
@@ -40,6 +41,15 @@ public abstract class CustomRequest {
         return response.as(JSON.class);
     }
 
+    public int getError() {
+        Response response = request.get();
+        if (response.status().isError()) {
+        	 int responsecode = response.status().code();
+        	 return responsecode;
+        }
+		return 0;
+    }
+    
     public XML getXml() {
         Response response = request.get();
         if (response.status().isError()) {
