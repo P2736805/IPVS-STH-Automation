@@ -21,15 +21,12 @@ import sth.ipvs.IPVSBaseTest;
 @Group("IPVSSmartTv")
 public class IPVSSmartTvTest extends IPVSBaseTest {
 	
-	@Inject
-    protected IPVSProperties props;
-	
 	@Test
 	@TestDescription("Testing CHTR Account IPVS Parental Control api Integration into STH /api/smarttv/parentalcontrol STHParentalControl-Charter")
 	public void parentalcontrolcallCHTR() {
 		JSON response = executeSmartv().piauthentication()
 					.parentalcontrolpath()
-					.query("customerGuid", "44188555")
+					.query("customerGuid", "51585793")
 					.query("ip", "1.1.1.1")
 					.query("mso", "CHARTER")
 					.query("requestId", "STHParentalControl-Charter")
@@ -54,13 +51,8 @@ public class IPVSSmartTvTest extends IPVSBaseTest {
 	@TestDescription("Testing CHTR Account IPVS location api Integration into STH ")
 	public void locationapiCHTR() {
 		JSON response = executeSmartv()
-					.customerGuid("44188555")
-					.mso("CHARTER")
-					.reqid("LocationCHTR")
-					.client("1.1.1.1")
-					.locationpath()
-					.piauthentication()
-					.query("customerGuid", "44188555")
+					.locationpath().piauthentication()
+					.query("customerGuid", "51585793")
 					.query("ip", "1.1.1.1")
 					.query("mso", "CHARTER")
 					.query("requestId", "STHLocation-Charter")
@@ -71,13 +63,8 @@ public class IPVSSmartTvTest extends IPVSBaseTest {
 	@Test
 	@TestDescription("Testing TWC Account IPVS location api Integration into STH ")
 	public void locationapiTWC() {
-		JSON response = executeSmartv()
-					.customerGuid("E4EDB341-C62E-E826-7D49-8514CCAB93E9")
-					.mso("TWC")
-					.reqid("LocationTWC")
-					.client("1.1.1.1")
+		JSON response = executeSmartv().piauthentication()
 					.locationpath()
-					.piauthentication()
 					.query("customerGuid", "E4EDB341-C62E-E826-7D49-8514CCAB93E9")
 					.query("ip", "1.1.1.1")
 					.query("mso", "TWC")
@@ -98,7 +85,7 @@ public class IPVSSmartTvTest extends IPVSBaseTest {
 					.query("tvodWatch", false)
 					.query("watchLive", false)
 					.query("watchOnDemand", false)
-					.query("customerGuid", "44188555")
+					.query("customerGuid", "51585793")
 					.query("ip", "1.1.1.1")
 					.query("mso", "CHARTER")
 					.query("requestId", "STHBookMark-Charter")
@@ -138,7 +125,7 @@ public class IPVSSmartTvTest extends IPVSBaseTest {
 					.query("tvodWatch", false)
 					.query("watchLive", false)
 					.query("watchOnDemand", false)					
-					.query("customerGuid", "44188555")
+					.query("customerGuid", "51585793")
 					.query("ip", "1.1.1.1")
 					.query("mso", "CHARTER")
 					.query("requestId", "STHWatchList-Charter")
@@ -171,7 +158,7 @@ public class IPVSSmartTvTest extends IPVSBaseTest {
 	public void favoritesChannelapiCHTR() {
 		JSON response = executeSmartv().piauthentication()
 					.favoritesChannelpath()				
-					.query("customerGuid", "44188555")
+					.query("customerGuid", "51585793")
 					.query("ip", "1.1.1.1")
 					.query("mso", "CHARTER")
 					.query("requestId", "STHFavorites-Charter")
@@ -213,7 +200,7 @@ public class IPVSSmartTvTest extends IPVSBaseTest {
 		JSON response = executeSmartv().piauthentication()
 					.Channelspath()
 					.query("onlineOnly", false)
-					.query("customerGuid", "44188555")
+					.query("customerGuid", "51585793")
 					.query("ip", "1.1.1.1")
 					.query("mso", "CHARTER")
 					.query("requestId", "STHChannels-Charter")
@@ -227,7 +214,7 @@ public class IPVSSmartTvTest extends IPVSBaseTest {
 		JSON response = executeSmartv().piauthentication()
 					.parentalblockedChannelspath()
 					.query("includeUnentitled", true)
-					.query("customerGuid", "44188555")
+					.query("customerGuid", "51585793")
 					.query("ip", "1.1.1.1")
 					.query("mso", "CHARTER")
 					.query("requestId", "STHParentalBlocked-Charter")
@@ -257,7 +244,7 @@ public class IPVSSmartTvTest extends IPVSBaseTest {
 					.query("dayOffset", "0")
 					.query("hourOffset", "11")
 					.query("entitlementIds", props().entitlementIds())
-					.query("customerGuid", "44188555")
+					.query("customerGuid", "51585793")
 					.query("ip", "1.1.1.1")
 					.query("mso", "CHARTER")
 					.query("requestId", "STHguideGrid-Charter")
@@ -286,7 +273,7 @@ public class IPVSSmartTvTest extends IPVSBaseTest {
 	public void lineupapiCHTR() {
 		JSON response = executeSmartv().piauthentication()
 					.lineuppath()
-					.query("customerGuid", "44188555")
+					.query("customerGuid", "51585793")
 					.query("ip", "1.1.1.1")
 					.query("mso", "CHARTER")
 					.query("requestId", "STHLineup-CHARTER")
@@ -312,7 +299,7 @@ public class IPVSSmartTvTest extends IPVSBaseTest {
 	public void fipsapiCHTR() {
 		JSON response = executeSmartv().piauthentication()
 					.fipspath()
-					.query("customerGuid", "44188555")
+					.query("customerGuid", "51585793")
 					.query("ip", "1.1.1.1")
 					.query("mso", "CHARTER")
 					.query("requestId", "STHLineup-Charter")
@@ -351,7 +338,7 @@ public class IPVSSmartTvTest extends IPVSBaseTest {
 	public void adobesessionCHTR() {
 		JSON response = executeSmartv().piauthentication()
 					.adobesessionpath()
-					.query("customerGuid", "44188555")
+					.query("customerGuid", "51585793")
 					.query("ip", "1.1.1.1")
 					.query("mso", "CHARTER")
 					.query("requestId", "STHAdobeSession-Charter")
@@ -364,7 +351,7 @@ public class IPVSSmartTvTest extends IPVSBaseTest {
 	public void parentalratingsapiCHTR() {
 		JSON response = executeSmartv().piauthentication()
 					.ratingspath()
-					.query("customerGuid", "44188555")
+					.query("customerGuid", "51585793")
 					.query("ip", "1.1.1.1")
 					.query("mso", "CHARTER")
 					.query("requestId", "STHParentalRating-Charter")
@@ -391,7 +378,7 @@ public class IPVSSmartTvTest extends IPVSBaseTest {
 	public void cdvrgetrecordingsapiCHTR() {
 		JSON response = executeSmartv().piauthentication()
 					.getrecordingschtr()
-					.query("customerGuid", "44188555")
+					.query("customerGuid", "51585793")
 					.query("mso", "CHARTER")
 					.query("requestId", "STHGetRecordings-Charter")
 					.getJson();

@@ -111,6 +111,10 @@ public class IPVSSmartTv extends CustomRequest {
     	return this;
     }
     
+    public IPVSSmartTv jwtauthentication() {
+    	request.header("Authorization", "Basic a2JyYXplbGw6TUxHNHkycEZVWmxPZU13dmxkaTRlZnJKNA==");
+    	return this;
+    }
     public IPVSSmartTv lineuppath() {
     	request.path("ipvs/api/smarttv/lineup/v1");
     	return this;
@@ -140,4 +144,10 @@ public class IPVSSmartTv extends CustomRequest {
     	request.path("ipvs/api/smarttv/cdvr/v1/programs");
     	return this;
     }
+   
+    public IPVSSmartTv getJWTtoken() {
+    	request.path("auth/jwt/token");
+    	return this;
+    }
+
 }

@@ -17,28 +17,16 @@ public class IPVSProperties {
 		return conf.get("engnew.ipvs.baseUrl");
     }
     
-    public String saintBaseUrl() {
-		return conf.get("engnew.saint.baseUrl");
-    }
-    
-    public String troveBaseUrl() {
-		return conf.get("engnew.trove.baseUrl");
-    }
-    
-    public String rdvrBaseUrl() {
-		return conf.get("engnew.rdvr.baseUrl");
+    public String twccustomerguid() {
+		return conf.get("twc.customerguid");
     }
 
-    public String buyflowBaseUrl() {
-		return conf.get("engnew.buyflow.baseUrl");
+    public String twcaccountid() {
+		return conf.get("twc.accountid");
     }
     
-    public String adobeBaseUrl() {
-		return conf.get("engnew.adobepass.baseUrl");
-    }
-
-    public String bhnBaseUrl() {
-		return conf.get("engnew.bhn.baseUrl");
+    public String chtrcustomerguid() {
+		return conf.get("charter.customerguid");
     }
     
     public String capabilitiesPath() {

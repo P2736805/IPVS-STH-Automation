@@ -12,6 +12,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.UUID;
 
+import javax.inject.Inject;
+
 import sth.ipvs.IPVSCapabilities;
 import sth.ipvs.IPVSBaseTest;
 
@@ -20,20 +22,21 @@ import sth.ipvs.IPVSBaseTest;
 @Group("IPVSCapabilities")
 public class IPVSCapabilitiesTest extends IPVSBaseTest {
 
+	@Inject
+    protected IPVSProperties props;
+	
 	@Test
 	@TestDescription("Testing Charter Account IPVS Capabilities call Integration into STH /api/smarttv/user/capabilities - STHCapabilitiesCheck-Charter")
 	public void ipvscapabilitiescallCHTR() {
 		JSON response = execute().path()
 								 .piauthentication()
-								 .query("customerGuid", "44188555")
+								 .query("customerGuid", "51585793")
 								 .query("ip", "1.1.1.1")
 								 .query("mso", "CHARTER")
 								 .query("requestId", "STHCapabilitiesCheck-Charter")
 								 .getJson();
-		
-		JSON watchlive = response.get("watchlive");		
-		Boolean result = watchlive.get("authorized");
-		System.out.println(result);
+		System.out.println(response);
+
 	}
 	
 	@Test

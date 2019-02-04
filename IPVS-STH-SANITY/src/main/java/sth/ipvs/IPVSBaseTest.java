@@ -109,4 +109,5 @@ public class IPVSBaseTest extends AutomationTest {
     public IPVSSmartTv executeSmartv() {
     	return getBean(IPVSSmartTv.class);
     }
+   
 }
