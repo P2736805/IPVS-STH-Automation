@@ -20,16 +20,14 @@ import sth.ipvs.IPVSBaseTest;
 
 @Group("IPVSJiraTicket")
 public class IPVSJiraTicketTest extends IPVSBaseTest {
-	@Inject
-    protected IPVSProperties props;
-	
+
 	@Test
 	@TestDescription("SVIPVS-657 - PLM error handling /api/smarttv/bookmarks/v2 with invalid accountIdentifier")
 	public void SVIPVS657() {
 		int response = executeSmartv().piauthentication()
 					.bookmarkspath()				
 					.query("customerGuid", "E4EDB341-C62E-E826-7D49-8514CCAB93E9")
-					.query("accountId", props.twcaccountid())
+					.query("accountId", "nyc.8035:8035810010099517")
 					.query("ip", "1.1.1.1")
 					.query("mso", "TWC")
 					.query("requestId", "SVIPVS-657")
