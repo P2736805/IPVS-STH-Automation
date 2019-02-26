@@ -16,6 +16,7 @@ import java.util.UUID;
 import javax.inject.Inject;
 
 import sth.ipvs.IPVSSmartTv;
+import sth.ipvs.IPVSCapabilities;
 import sth.ipvs.IPVSBaseTest;
 
 @Group("IPVSJiraTicket")
@@ -45,12 +46,60 @@ public class IPVSJiraTicketTest extends IPVSBaseTest {
 		JSON response = executeSmartv().jwtauthentication()
 					.getJWTtoken()				
 					.query("customerGuid", "E4EDB341-C62E-E826-7D49-8514CCAB93E9")
-					.query("requestId", "SVIPVS-657")
+					.query("requestId", "SVIPVS-547")
 					.getJson();
 
 		System.out.println(response);
 	} 
 
+	@Test
+	@TestDescription("SVIPVS-579 - OTT Capabilities Check /api/smarttv/user/capabilities")
+	public void SVIPVS579OTTdisabled() {
+		JSON response = execute().path()
+				 .piauthentication()
+				 .query("customerGuid", "44188798")
+				 .query("ip", "1.1.1.1")
+				 .query("mso", "CHARTER")
+				 .query("requestId", "STHCapabilitiesCheck-Charter")
+				 .getJson();
+		
+		JSON test = response.get("overthetop");
+		/*Object result = test.get("authorized");*/
+		if (test == null) {
+			throw new RuntimeException("error getting expected error response" + ":\n" + response);
+		}
+		Object result = test.get("authorized");
+		if (result == "true") {
+			throw new RuntimeException("error getting expected error response" + ":\n" + response);
+		}
+		/*System.out.println();*/
+	}
+	
+	@Test
+	@TestDescription("SVIPVS-579 - OTT Capabilities Check /api/smarttv/user/capabilities")
+	public void SVIPVS579OTTenabled() {
+		JSON response = execute().path()
+				 .piauthentication()
+				 .query("customerGuid", "44201648")
+				 .query("ip", "1.1.1.1")
+				 .query("mso", "CHARTER")
+				 .query("requestId", "STHCapabilitiesCheck-Charter")
+				 .getJson();
+		
+		JSON test = response.get("overthetop");
+		/*Object result = test.get("authorized");*/
+		if (test == null) {
+			throw new RuntimeException("error getting expected error response" + ":\n" + response);
+		}
+		Object result = test.get("authorized");
+		if (result == "true") {
+			throw new RuntimeException("error getting expected error response" + ":\n" + response);
+		}
+		/*System.out.println();*/
+	}
+	
 }
+
+
 
 
