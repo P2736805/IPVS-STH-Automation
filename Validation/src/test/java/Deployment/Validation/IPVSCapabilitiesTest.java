@@ -32,7 +32,7 @@ public class IPVSCapabilitiesTest extends IPVSBaseTest {
 								 .client("1.1.1.1")
 								 .query("customerGuid", "44201648")
 								 .query("mso", "CHARTER")
-								 .query("requestId", "capabilitiescheck")
+								 .query("requestId", "capabilitiesscheck")
 								 .query("cacheByPass", "true")
 								 .getJson();
 		System.out.println(response);
