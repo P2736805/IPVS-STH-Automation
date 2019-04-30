@@ -2,9 +2,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.spectrum.test</groupId>
-    <artifactId>ipvs-test</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+  <groupId>com.spectrum.test</groupId>
+  <artifactId>Validation</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
 
     <properties>
         <jdk.target>1.8</jdk.target>
@@ -165,3 +165,4 @@
         </plugins>
     </build>
 </project>
+

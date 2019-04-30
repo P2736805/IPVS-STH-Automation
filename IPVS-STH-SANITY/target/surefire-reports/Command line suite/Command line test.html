@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Command line test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>25/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>29/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jan 14 17:50:39 IST 2019</td>
+<td>Started on:</td><td>Tue Apr 30 10:27:20 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>94 seconds (94496 ms)</td>
+<tr><td>Total time:</td><td>33 seconds (33741 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,40 +75,38 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='sth.ipvs.IPVSSmartTvTest.cdvrgetrecordingsapiCHTR()'><b>cdvrgetrecordingsapiCHTR</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
-<td><div><pre>java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/kumodvr/api/cdvr/v1/users/46bcef3d943720ca9a701506b3780ebe/recordings?status=ALL&amp;requestId=STHGetRecordings-Charter:
+<td title='sth.ipvs.IPVSJiraTicketTest.SVIPVS547()'><b>SVIPVS547</b><br>Test class: sth.ipvs.IPVSJiraTicketTest</td>
+<td><div><pre>java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/auth/jwt/token?customerGuid=E4EDB341-C62E-E826-7D49-8514CCAB93E9&amp;requestId=SVIPVS-547:
 HttpResponse:
-HTTP/1.1 403 Forbidden
+HTTP/1.1 404 Not Found
 Connection: keep-alive
-Content-Length: 10
-Content-Type: text/plain
-Date: Mon, 14 Jan 2019 12:21:33 GMT
+Content-Length: 42
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 30 Apr 2019 04:57:24 GMT
 Server: openresty
-Transfer-Encoding: chunked
-X-PI-Auth-Failure: 9001
-x-trace-id: 5ea609f28177-4daa-000000000008b4d9
+X-PI-Datacenter: CTEC
+X-PI-Latency: 1 millisecond
+x-trace-id: 440bb648ba0f-4cb3-00000000000331ce
 
-Forbidden
-
-	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:38)
-	at sth.ipvs.IPVSSmartTvTest.cdvrgetrecordingsapiCHTR(IPVSSmartTvTest.java:396)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace544966217", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace544966217'><pre>java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/kumodvr/api/cdvr/v1/users/46bcef3d943720ca9a701506b3780ebe/recordings?status=ALL&amp;requestId=STHGetRecordings-Charter:
+The requested resource could not be found.
+	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:39)
+	at sth.ipvs.IPVSJiraTicketTest.SVIPVS547(IPVSJiraTicketTest.java:50)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace546796969", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace546796969'><pre>java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/auth/jwt/token?customerGuid=E4EDB341-C62E-E826-7D49-8514CCAB93E9&amp;requestId=SVIPVS-547:
 HttpResponse:
-HTTP/1.1 403 Forbidden
+HTTP/1.1 404 Not Found
 Connection: keep-alive
-Content-Length: 10
-Content-Type: text/plain
-Date: Mon, 14 Jan 2019 12:21:33 GMT
+Content-Length: 42
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 30 Apr 2019 04:57:24 GMT
 Server: openresty
-Transfer-Encoding: chunked
-X-PI-Auth-Failure: 9001
-x-trace-id: 5ea609f28177-4daa-000000000008b4d9
+X-PI-Datacenter: CTEC
+X-PI-Latency: 1 millisecond
+x-trace-id: 440bb648ba0f-4cb3-00000000000331ce
 
-Forbidden
-
-	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:38)
-	at sth.ipvs.IPVSSmartTvTest.cdvrgetrecordingsapiCHTR(IPVSSmartTvTest.java:396)
+The requested resource could not be found.
+	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:39)
+	at sth.ipvs.IPVSJiraTicketTest.SVIPVS547(IPVSJiraTicketTest.java:50)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -146,42 +144,50 @@ Forbidden
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </pre></div></td>
 <td>0</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>sth.ipvs.IPVSJiraTicketTest@3224a577</td></tr>
 <tr>
-<td title='sth.ipvs.IPVSSmartTvTest.cdvrgetrecordingsapiTWC()'><b>cdvrgetrecordingsapiTWC</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
-<td><div><pre>java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/kumodvr/api/cdvr/v1/users/4e09854aaf4992240be1cc6935861c4e/recordings?status=ALL&amp;requestId=STHGetRecordings-TWC:
+<td title='sth.ipvs.IPVSSmartTvTest.locationapiCHTR()'><b>locationapiCHTR</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
+<td><div><pre>java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/api/smarttv/location/v1?customerGuid=44188798&amp;ip=1.1.1.1&amp;mso=CHARTER&amp;requestId=STHLocation-Charter:
 HttpResponse:
-HTTP/1.1 403 Forbidden
+HTTP/1.1 500 Internal Server Error
+Access-Control-Allow-Headers: WWW-Authenticate,Keep-Alive,User-Agent,X-Requested-With,Cache-Control,Content-Type,X-WayfarerEID
+Access-Control-Allow-Methods: GET, DELETE, POST, PUT, OPTIONS
+Cache-Control: no-cache,private,no-store
 Connection: keep-alive
-Content-Length: 10
-Content-Type: text/plain
-Date: Mon, 14 Jan 2019 12:21:34 GMT
+Content-Length: 33
+Content-Type: application/json; charset=utf-8
+Date: Tue, 30 Apr 2019 04:57:45 GMT
+Failure-Trace: Saint_500_Failure getting BehindOwnModem from saint
+Pragma: no-cache
 Server: openresty
-Transfer-Encoding: chunked
-X-PI-Auth-Failure: 9001
-x-trace-id: 5ea609f28177-4daa-000000000008b4da
+X-Failure-Message: Failed to obtain BehindOwnModem from saint: Required property [sessionId] not found
+X-PI-Datacenter: CTEC
+x-trace-id: 440bb648ba0f-4cb3-0000000000033242
 
-Forbidden
-
-	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:38)
-	at sth.ipvs.IPVSSmartTvTest.cdvrgetrecordingsapiTWC(IPVSSmartTvTest.java:407)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace749604930", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace749604930'><pre>java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/kumodvr/api/cdvr/v1/users/4e09854aaf4992240be1cc6935861c4e/recordings?status=ALL&amp;requestId=STHGetRecordings-TWC:
+{&quot;failure&quot;:&quot;InternalServerError&quot;}
+	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:39)
+	at sth.ipvs.IPVSSmartTvTest.locationapiCHTR(IPVSSmartTvTest.java:59)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace707635461", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace707635461'><pre>java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/api/smarttv/location/v1?customerGuid=44188798&amp;ip=1.1.1.1&amp;mso=CHARTER&amp;requestId=STHLocation-Charter:
 HttpResponse:
-HTTP/1.1 403 Forbidden
+HTTP/1.1 500 Internal Server Error
+Access-Control-Allow-Headers: WWW-Authenticate,Keep-Alive,User-Agent,X-Requested-With,Cache-Control,Content-Type,X-WayfarerEID
+Access-Control-Allow-Methods: GET, DELETE, POST, PUT, OPTIONS
+Cache-Control: no-cache,private,no-store
 Connection: keep-alive
-Content-Length: 10
-Content-Type: text/plain
-Date: Mon, 14 Jan 2019 12:21:34 GMT
+Content-Length: 33
+Content-Type: application/json; charset=utf-8
+Date: Tue, 30 Apr 2019 04:57:45 GMT
+Failure-Trace: Saint_500_Failure getting BehindOwnModem from saint
+Pragma: no-cache
 Server: openresty
-Transfer-Encoding: chunked
-X-PI-Auth-Failure: 9001
-x-trace-id: 5ea609f28177-4daa-000000000008b4da
+X-Failure-Message: Failed to obtain BehindOwnModem from saint: Required property [sessionId] not found
+X-PI-Datacenter: CTEC
+x-trace-id: 440bb648ba0f-4cb3-0000000000033242
 
-Forbidden
-
-	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:38)
-	at sth.ipvs.IPVSSmartTvTest.cdvrgetrecordingsapiTWC(IPVSSmartTvTest.java:407)
+{&quot;failure&quot;:&quot;InternalServerError&quot;}
+	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:39)
+	at sth.ipvs.IPVSSmartTvTest.locationapiCHTR(IPVSSmartTvTest.java:59)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -219,50 +225,52 @@ Forbidden
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </pre></div></td>
 <td>0</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
 <tr>
-<td title='sth.ipvs.IPVSCapabilitiesTest.ipvscapabilitiescallCHTR()'><b>ipvscapabilitiescallCHTR</b><br>Test class: sth.ipvs.IPVSCapabilitiesTest</td>
-<td><div><pre>java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/api/smarttv/user/capabilities/v3?customerGuid=51585793&amp;ip=1.1.1.1&amp;mso=CHARTER&amp;requestId=STHCapabilitiesCheck-Charter:
+<td title='sth.ipvs.IPVSSmartTvTest.locationapiTWC()'><b>locationapiTWC</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
+<td><div><pre>java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/api/smarttv/location/v1?customerGuid=E4EDB341-C62E-E826-7D49-8514CCAB93E9&amp;ip=1.1.1.1&amp;mso=TWC&amp;requestId=STHLocation-TWC:
 HttpResponse:
-HTTP/1.1 504 Gateway Timeout
+HTTP/1.1 500 Internal Server Error
+Access-Control-Allow-Headers: WWW-Authenticate,Keep-Alive,User-Agent,X-Requested-With,Cache-Control,Content-Type,X-WayfarerEID
+Access-Control-Allow-Methods: GET, DELETE, POST, PUT, OPTIONS
+Cache-Control: no-cache,private,no-store
 Connection: keep-alive
-Content-Length: 176
-Content-Type: text/html
-Date: Mon, 14 Jan 2019 12:21:12 GMT
+Content-Length: 33
+Content-Type: application/json; charset=utf-8
+Date: Tue, 30 Apr 2019 04:57:46 GMT
+Failure-Trace: Saint_500_Failure getting BehindOwnModem from saint
+Pragma: no-cache
 Server: openresty
-x-trace-id: 5ea609f28177-4daa-000000000008b461
+Server-Timing: intid;desc=33634ccee829097f
+X-Failure-Message: Failed to obtain BehindOwnModem from saint: Required property [sessionId] not found
+X-PI-Datacenter: CTEC
+x-trace-id: 440bb648ba0f-4cb3-0000000000033253
 
-&lt;html&gt;
-&lt;head&gt;&lt;title&gt;504 Gateway Time-out&lt;/title&gt;&lt;/head&gt;
-&lt;body bgcolor=&quot;white&quot;&gt;
-&lt;center&gt;&lt;h1&gt;504 Gateway Time-out&lt;/h1&gt;&lt;/center&gt;
-&lt;hr&gt;&lt;center&gt;nginx&lt;/center&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-
-	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:38)
-	at sth.ipvs.IPVSCapabilitiesTest.ipvscapabilitiescallCHTR(IPVSCapabilitiesTest.java:31)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace565839681", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace565839681'><pre>java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/api/smarttv/user/capabilities/v3?customerGuid=51585793&amp;ip=1.1.1.1&amp;mso=CHARTER&amp;requestId=STHCapabilitiesCheck-Charter:
+{&quot;failure&quot;:&quot;InternalServerError&quot;}
+	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:39)
+	at sth.ipvs.IPVSSmartTvTest.locationapiTWC(IPVSSmartTvTest.java:72)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1410367298", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1410367298'><pre>java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/api/smarttv/location/v1?customerGuid=E4EDB341-C62E-E826-7D49-8514CCAB93E9&amp;ip=1.1.1.1&amp;mso=TWC&amp;requestId=STHLocation-TWC:
 HttpResponse:
-HTTP/1.1 504 Gateway Timeout
+HTTP/1.1 500 Internal Server Error
+Access-Control-Allow-Headers: WWW-Authenticate,Keep-Alive,User-Agent,X-Requested-With,Cache-Control,Content-Type,X-WayfarerEID
+Access-Control-Allow-Methods: GET, DELETE, POST, PUT, OPTIONS
+Cache-Control: no-cache,private,no-store
 Connection: keep-alive
-Content-Length: 176
-Content-Type: text/html
-Date: Mon, 14 Jan 2019 12:21:12 GMT
+Content-Length: 33
+Content-Type: application/json; charset=utf-8
+Date: Tue, 30 Apr 2019 04:57:46 GMT
+Failure-Trace: Saint_500_Failure getting BehindOwnModem from saint
+Pragma: no-cache
 Server: openresty
-x-trace-id: 5ea609f28177-4daa-000000000008b461
+Server-Timing: intid;desc=33634ccee829097f
+X-Failure-Message: Failed to obtain BehindOwnModem from saint: Required property [sessionId] not found
+X-PI-Datacenter: CTEC
+x-trace-id: 440bb648ba0f-4cb3-0000000000033253
 
-&lt;html&gt;
-&lt;head&gt;&lt;title&gt;504 Gateway Time-out&lt;/title&gt;&lt;/head&gt;
-&lt;body bgcolor=&quot;white&quot;&gt;
-&lt;center&gt;&lt;h1&gt;504 Gateway Time-out&lt;/h1&gt;&lt;/center&gt;
-&lt;hr&gt;&lt;center&gt;nginx&lt;/center&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-
-	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:38)
-	at sth.ipvs.IPVSCapabilitiesTest.ipvscapabilitiescallCHTR(IPVSCapabilitiesTest.java:31)
+{&quot;failure&quot;:&quot;InternalServerError&quot;}
+	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:39)
+	at sth.ipvs.IPVSSmartTvTest.locationapiTWC(IPVSSmartTvTest.java:72)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -299,8 +307,8 @@ x-trace-id: 5ea609f28177-4daa-000000000008b461
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </pre></div></td>
-<td>33</td>
-<td>sth.ipvs.IPVSCapabilitiesTest@7c711375</td></tr>
+<td>0</td>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -312,128 +320,148 @@ x-trace-id: 5ea609f28177-4daa-000000000008b461
 <tr>
 <td title='sth.ipvs.IPVSSmartTvTest.ChannelsapiCHTR()'><b>ChannelsapiCHTR</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
 <td></td>
-<td>6</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>3</td>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
 <tr>
 <td title='sth.ipvs.IPVSSmartTvTest.ChannelsapiTWC()'><b>ChannelsapiTWC</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
 <td></td>
-<td>5</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>2</td>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
+<tr>
+<td title='sth.ipvs.IPVSJiraTicketTest.SVIPVS579OTTdisabled()'><b>SVIPVS579OTTdisabled</b><br>Test class: sth.ipvs.IPVSJiraTicketTest</td>
+<td></td>
+<td>0</td>
+<td>sth.ipvs.IPVSJiraTicketTest@3224a577</td></tr>
+<tr>
+<td title='sth.ipvs.IPVSJiraTicketTest.SVIPVS579OTTenabled()'><b>SVIPVS579OTTenabled</b><br>Test class: sth.ipvs.IPVSJiraTicketTest</td>
+<td></td>
+<td>0</td>
+<td>sth.ipvs.IPVSJiraTicketTest@3224a577</td></tr>
+<tr>
+<td title='sth.ipvs.IPVSJiraTicketTest.SVIPVS657()'><b>SVIPVS657</b><br>Test class: sth.ipvs.IPVSJiraTicketTest</td>
+<td></td>
+<td>0</td>
+<td>sth.ipvs.IPVSJiraTicketTest@3224a577</td></tr>
 <tr>
 <td title='sth.ipvs.IPVSSmartTvTest.adobesessionCHTR()'><b>adobesessionCHTR</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
 <td></td>
 <td>0</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
 <tr>
 <td title='sth.ipvs.IPVSSmartTvTest.adobesessionTWC()'><b>adobesessionTWC</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
 <td></td>
 <td>0</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
 <tr>
 <td title='sth.ipvs.IPVSSmartTvTest.bookmarksapiCHTR()'><b>bookmarksapiCHTR</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
 <td></td>
-<td>1</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>0</td>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
 <tr>
 <td title='sth.ipvs.IPVSSmartTvTest.bookmarksapiTWC()'><b>bookmarksapiTWC</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
 <td></td>
-<td>1</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>0</td>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
+<tr>
+<td title='sth.ipvs.IPVSSmartTvTest.cdvrgetrecordingsapiCHTR()'><b>cdvrgetrecordingsapiCHTR</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
+<td></td>
+<td>3</td>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
+<tr>
+<td title='sth.ipvs.IPVSSmartTvTest.cdvrgetrecordingsapiTWC()'><b>cdvrgetrecordingsapiTWC</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
+<td></td>
+<td>2</td>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
 <tr>
 <td title='sth.ipvs.IPVSSmartTvTest.favoritesChannelapiCHTR()'><b>favoritesChannelapiCHTR</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
 <td></td>
 <td>0</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
 <tr>
 <td title='sth.ipvs.IPVSSmartTvTest.favoritesChannelapiTWC()'><b>favoritesChannelapiTWC</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
 <td></td>
 <td>0</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
 <tr>
 <td title='sth.ipvs.IPVSSmartTvTest.fipsapiCHTR()'><b>fipsapiCHTR</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
 <td></td>
 <td>0</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
 <tr>
 <td title='sth.ipvs.IPVSSmartTvTest.fipsapiTWC()'><b>fipsapiTWC</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
 <td></td>
 <td>0</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
 <tr>
 <td title='sth.ipvs.IPVSSmartTvTest.guidegridapiCHTR()'><b>guidegridapiCHTR</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
 <td></td>
 <td>1</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
 <tr>
 <td title='sth.ipvs.IPVSSmartTvTest.guidegridapiTWC()'><b>guidegridapiTWC</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
 <td></td>
 <td>1</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
+<tr>
+<td title='sth.ipvs.IPVSCapabilitiesTest.ipvscapabilitiescallCHTR()'><b>ipvscapabilitiescallCHTR</b><br>Test class: sth.ipvs.IPVSCapabilitiesTest</td>
+<td></td>
+<td>2</td>
+<td>sth.ipvs.IPVSCapabilitiesTest@f627d13</td></tr>
 <tr>
 <td title='sth.ipvs.IPVSCapabilitiesTest.ipvscapabilitiescallTWC()'><b>ipvscapabilitiescallTWC</b><br>Test class: sth.ipvs.IPVSCapabilitiesTest</td>
 <td></td>
 <td>0</td>
-<td>sth.ipvs.IPVSCapabilitiesTest@7c711375</td></tr>
+<td>sth.ipvs.IPVSCapabilitiesTest@f627d13</td></tr>
 <tr>
 <td title='sth.ipvs.IPVSSmartTvTest.lineupapiCHTR()'><b>lineupapiCHTR</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
 <td></td>
 <td>0</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
 <tr>
 <td title='sth.ipvs.IPVSSmartTvTest.linuepapiTWC()'><b>linuepapiTWC</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
 <td></td>
 <td>0</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
-<tr>
-<td title='sth.ipvs.IPVSSmartTvTest.locationapiCHTR()'><b>locationapiCHTR</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
-<td></td>
-<td>0</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
-<tr>
-<td title='sth.ipvs.IPVSSmartTvTest.locationapiTWC()'><b>locationapiTWC</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
-<td></td>
-<td>0</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
 <tr>
 <td title='sth.ipvs.IPVSSmartTvTest.parentalBlockedChannelsapiCHTR()'><b>parentalBlockedChannelsapiCHTR</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
 <td></td>
-<td>12</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>3</td>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
 <tr>
 <td title='sth.ipvs.IPVSSmartTvTest.parentalBlockedChannelsapiTWC()'><b>parentalBlockedChannelsapiTWC</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
 <td></td>
-<td>9</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>2</td>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
 <tr>
 <td title='sth.ipvs.IPVSSmartTvTest.parentalcontrolcallCHTR()'><b>parentalcontrolcallCHTR</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
 <td></td>
 <td>0</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
 <tr>
 <td title='sth.ipvs.IPVSSmartTvTest.parentalcontrolcallTWC()'><b>parentalcontrolcallTWC</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
 <td></td>
 <td>0</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
 <tr>
 <td title='sth.ipvs.IPVSSmartTvTest.parentalratingapiTWC()'><b>parentalratingapiTWC</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
 <td></td>
 <td>0</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
 <tr>
 <td title='sth.ipvs.IPVSSmartTvTest.parentalratingsapiCHTR()'><b>parentalratingsapiCHTR</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
 <td></td>
 <td>0</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
 <tr>
 <td title='sth.ipvs.IPVSSmartTvTest.watchListapiCHTR()'><b>watchListapiCHTR</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
 <td></td>
-<td>1</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>0</td>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
 <tr>
 <td title='sth.ipvs.IPVSSmartTvTest.watchListapiTWC()'><b>watchListapiTWC</b><br>Test class: sth.ipvs.IPVSSmartTvTest</td>
 <td></td>
 <td>0</td>
-<td>sth.ipvs.IPVSSmartTvTest@37d4349f</td></tr>
+<td>sth.ipvs.IPVSSmartTvTest@2e32ccc5</td></tr>
 </table><p>
 </body>
 </html>

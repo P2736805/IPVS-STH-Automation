@@ -1,59 +1,63 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 28, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 96.005 sec <<< FAILURE!
-ipvscapabilitiescallCHTR(sth.ipvs.IPVSCapabilitiesTest)  Time elapsed: 33.353 sec  <<< FAILURE!
-java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/api/smarttv/user/capabilities/v3?customerGuid=51585793&ip=1.1.1.1&mso=CHARTER&requestId=STHCapabilitiesCheck-Charter:
+Tests run: 32, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 35.97 sec <<< FAILURE!
+SVIPVS547(sth.ipvs.IPVSJiraTicketTest)  Time elapsed: 0.278 sec  <<< FAILURE!
+java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/auth/jwt/token?customerGuid=E4EDB341-C62E-E826-7D49-8514CCAB93E9&requestId=SVIPVS-547:
 HttpResponse:
-HTTP/1.1 504 Gateway Timeout
+HTTP/1.1 404 Not Found
 Connection: keep-alive
-Content-Length: 176
-Content-Type: text/html
-Date: Mon, 14 Jan 2019 12:21:12 GMT
+Content-Length: 42
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 30 Apr 2019 04:57:24 GMT
 Server: openresty
-x-trace-id: 5ea609f28177-4daa-000000000008b461
-<html>
-<head><title>504 Gateway Time-out</title></head>
-<body bgcolor="white">
-<center><h1>504 Gateway Time-out</h1></center>
-<hr><center>nginx</center>
-</body>
-</html>
+X-PI-Datacenter: CTEC
+X-PI-Latency: 1 millisecond
+x-trace-id: 440bb648ba0f-4cb3-00000000000331ce
+The requested resource could not be found.
+	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:39)
+	at sth.ipvs.IPVSJiraTicketTest.SVIPVS547(IPVSJiraTicketTest.java:50)
 
-	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:38)
-	at sth.ipvs.IPVSCapabilitiesTest.ipvscapabilitiescallCHTR(IPVSCapabilitiesTest.java:31)
-
-cdvrgetrecordingsapiCHTR(sth.ipvs.IPVSSmartTvTest)  Time elapsed: 0.383 sec  <<< FAILURE!
-java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/kumodvr/api/cdvr/v1/users/46bcef3d943720ca9a701506b3780ebe/recordings?status=ALL&requestId=STHGetRecordings-Charter:
+locationapiCHTR(sth.ipvs.IPVSSmartTvTest)  Time elapsed: 0.357 sec  <<< FAILURE!
+java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/api/smarttv/location/v1?customerGuid=44188798&ip=1.1.1.1&mso=CHARTER&requestId=STHLocation-Charter:
 HttpResponse:
-HTTP/1.1 403 Forbidden
+HTTP/1.1 500 Internal Server Error
+Access-Control-Allow-Headers: WWW-Authenticate,Keep-Alive,User-Agent,X-Requested-With,Cache-Control,Content-Type,X-WayfarerEID
+Access-Control-Allow-Methods: GET, DELETE, POST, PUT, OPTIONS
+Cache-Control: no-cache,private,no-store
 Connection: keep-alive
-Content-Length: 10
-Content-Type: text/plain
-Date: Mon, 14 Jan 2019 12:21:33 GMT
+Content-Length: 33
+Content-Type: application/json; charset=utf-8
+Date: Tue, 30 Apr 2019 04:57:45 GMT
+Failure-Trace: Saint_500_Failure getting BehindOwnModem from saint
+Pragma: no-cache
 Server: openresty
-Transfer-Encoding: chunked
-X-PI-Auth-Failure: 9001
-x-trace-id: 5ea609f28177-4daa-000000000008b4d9
-Forbidden
+X-Failure-Message: Failed to obtain BehindOwnModem from saint: Required property [sessionId] not found
+X-PI-Datacenter: CTEC
+x-trace-id: 440bb648ba0f-4cb3-0000000000033242
+{"failure":"InternalServerError"}
+	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:39)
+	at sth.ipvs.IPVSSmartTvTest.locationapiCHTR(IPVSSmartTvTest.java:59)
 
-	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:38)
-	at sth.ipvs.IPVSSmartTvTest.cdvrgetrecordingsapiCHTR(IPVSSmartTvTest.java:396)
-
-cdvrgetrecordingsapiTWC(sth.ipvs.IPVSSmartTvTest)  Time elapsed: 0.33 sec  <<< FAILURE!
-java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/kumodvr/api/cdvr/v1/users/4e09854aaf4992240be1cc6935861c4e/recordings?status=ALL&requestId=STHGetRecordings-TWC:
+locationapiTWC(sth.ipvs.IPVSSmartTvTest)  Time elapsed: 0.363 sec  <<< FAILURE!
+java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/api/smarttv/location/v1?customerGuid=E4EDB341-C62E-E826-7D49-8514CCAB93E9&ip=1.1.1.1&mso=TWC&requestId=STHLocation-TWC:
 HttpResponse:
-HTTP/1.1 403 Forbidden
+HTTP/1.1 500 Internal Server Error
+Access-Control-Allow-Headers: WWW-Authenticate,Keep-Alive,User-Agent,X-Requested-With,Cache-Control,Content-Type,X-WayfarerEID
+Access-Control-Allow-Methods: GET, DELETE, POST, PUT, OPTIONS
+Cache-Control: no-cache,private,no-store
 Connection: keep-alive
-Content-Length: 10
-Content-Type: text/plain
-Date: Mon, 14 Jan 2019 12:21:34 GMT
+Content-Length: 33
+Content-Type: application/json; charset=utf-8
+Date: Tue, 30 Apr 2019 04:57:46 GMT
+Failure-Trace: Saint_500_Failure getting BehindOwnModem from saint
+Pragma: no-cache
 Server: openresty
-Transfer-Encoding: chunked
-X-PI-Auth-Failure: 9001
-x-trace-id: 5ea609f28177-4daa-000000000008b4da
-Forbidden
-
-	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:38)
-	at sth.ipvs.IPVSSmartTvTest.cdvrgetrecordingsapiTWC(IPVSSmartTvTest.java:407)
+Server-Timing: intid;desc=33634ccee829097f
+X-Failure-Message: Failed to obtain BehindOwnModem from saint: Required property [sessionId] not found
+X-PI-Datacenter: CTEC
+x-trace-id: 440bb648ba0f-4cb3-0000000000033253
+{"failure":"InternalServerError"}
+	at sth.ipvs.CustomRequest.getJson(CustomRequest.java:39)
+	at sth.ipvs.IPVSSmartTvTest.locationapiTWC(IPVSSmartTvTest.java:72)
 

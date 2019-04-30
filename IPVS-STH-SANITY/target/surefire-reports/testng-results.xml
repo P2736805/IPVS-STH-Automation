@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" ignored="1" total="29" passed="25">
+<testng-results skipped="0" failed="3" ignored="2" total="34" passed="29">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="94496" started-at="2019-01-14T12:20:39Z" finished-at="2019-01-14T12:22:13Z">
+  <suite name="Command line suite" duration-ms="33741" started-at="2019-04-30T04:57:20Z" finished-at="2019-04-30T04:57:54Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="94496" started-at="2019-01-14T12:20:39Z" finished-at="2019-01-14T12:22:13Z">
+    <test name="Command line test" duration-ms="33741" started-at="2019-04-30T04:57:20Z" finished-at="2019-04-30T04:57:54Z">
       <class name="sth.ipvs.IPVSSmartTvTest">
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:14Z" finished-at="2019-01-14T12:21:14Z">
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:25Z" finished-at="2019-04-30T04:57:25Z">
           <params>
             <param index="0">
               <value>
@@ -16,37 +16,33 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=ChannelsapiCHTR status=SUCCESS method=IPVSSmartTvTest.ChannelsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=ChannelsapiCHTR status=SUCCESS method=IPVSSmartTvTest.ChannelsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:14Z" finished-at="2019-01-14T12:21:14Z">
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:25Z" finished-at="2019-04-30T04:57:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="ChannelsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="ChannelsapiCHTR" duration-ms="6484" started-at="2019-01-14T12:21:14Z" finished-at="2019-01-14T12:21:20Z">
+        <test-method status="PASS" signature="ChannelsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="ChannelsapiCHTR" duration-ms="3211" started-at="2019-04-30T04:57:25Z" finished-at="2019-04-30T04:57:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChannelsapiCHTR -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="940" started-at="2019-01-14T12:21:20Z" finished-at="2019-01-14T12:21:21Z">
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:28Z" finished-at="2019-04-30T04:57:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ChannelsapiCHTR status=SUCCESS method=IPVSSmartTvTest.ChannelsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=ChannelsapiCHTR status=SUCCESS method=IPVSSmartTvTest.ChannelsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:21Z" finished-at="2019-01-14T12:21:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:21Z" finished-at="2019-01-14T12:21:21Z">
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:28Z" finished-at="2019-04-30T04:57:28Z">
           <params>
             <param index="0">
               <value>
@@ -55,33 +51,41 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=ChannelsapiTWC status=SUCCESS method=IPVSSmartTvTest.ChannelsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=ChannelsapiTWC status=SUCCESS method=IPVSSmartTvTest.ChannelsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="ChannelsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="ChannelsapiTWC" duration-ms="5799" started-at="2019-01-14T12:21:21Z" finished-at="2019-01-14T12:21:27Z">
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:28Z" finished-at="2019-04-30T04:57:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCleanupMethods -->
+        <test-method status="PASS" signature="ChannelsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="ChannelsapiTWC" duration-ms="2802" started-at="2019-04-30T04:57:28Z" finished-at="2019-04-30T04:57:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChannelsapiTWC -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:21Z" finished-at="2019-01-14T12:21:21Z">
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:28Z" finished-at="2019-04-30T04:57:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="769" started-at="2019-01-14T12:21:27Z" finished-at="2019-01-14T12:21:28Z">
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="2" started-at="2019-04-30T04:57:31Z" finished-at="2019-04-30T04:57:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ChannelsapiTWC status=SUCCESS method=IPVSSmartTvTest.ChannelsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=ChannelsapiTWC status=SUCCESS method=IPVSSmartTvTest.ChannelsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:28Z" finished-at="2019-01-14T12:21:28Z">
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:31Z" finished-at="2019-04-30T04:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCleanupMethods -->
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="14" started-at="2019-04-30T04:57:31Z" finished-at="2019-04-30T04:57:31Z">
           <params>
             <param index="0">
               <value>
@@ -90,37 +94,37 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=adobesessionCHTR status=SUCCESS method=IPVSSmartTvTest.adobesessionCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=adobesessionCHTR status=SUCCESS method=IPVSSmartTvTest.adobesessionCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:28Z" finished-at="2019-01-14T12:21:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:28Z" finished-at="2019-01-14T12:21:28Z">
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:31Z" finished-at="2019-04-30T04:57:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="adobesessionCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="adobesessionCHTR" duration-ms="768" started-at="2019-01-14T12:21:28Z" finished-at="2019-01-14T12:21:29Z">
+        <test-method status="PASS" signature="adobesessionCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="adobesessionCHTR" duration-ms="448" started-at="2019-04-30T04:57:31Z" finished-at="2019-04-30T04:57:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adobesessionCHTR -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="333" started-at="2019-01-14T12:21:29Z" finished-at="2019-01-14T12:21:29Z">
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:31Z" finished-at="2019-04-30T04:57:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=adobesessionCHTR status=SUCCESS method=IPVSSmartTvTest.adobesessionCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=adobesessionCHTR status=SUCCESS method=IPVSSmartTvTest.adobesessionCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:29Z" finished-at="2019-01-14T12:21:29Z">
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:31Z" finished-at="2019-04-30T04:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCleanupMethods -->
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="2" started-at="2019-04-30T04:57:31Z" finished-at="2019-04-30T04:57:31Z">
           <params>
             <param index="0">
               <value>
@@ -129,41 +133,37 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=adobesessionTWC status=SUCCESS method=IPVSSmartTvTest.adobesessionTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=adobesessionTWC status=SUCCESS method=IPVSSmartTvTest.adobesessionTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:29Z" finished-at="2019-01-14T12:21:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="adobesessionTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="adobesessionTWC" duration-ms="749" started-at="2019-01-14T12:21:29Z" finished-at="2019-01-14T12:21:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- adobesessionTWC -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:29Z" finished-at="2019-01-14T12:21:29Z">
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:31Z" finished-at="2019-04-30T04:57:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="324" started-at="2019-01-14T12:21:30Z" finished-at="2019-01-14T12:21:30Z">
+        <test-method status="PASS" signature="adobesessionTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="adobesessionTWC" duration-ms="622" started-at="2019-04-30T04:57:31Z" finished-at="2019-04-30T04:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adobesessionTWC -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:32Z" finished-at="2019-04-30T04:57:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=adobesessionTWC status=SUCCESS method=IPVSSmartTvTest.adobesessionTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=adobesessionTWC status=SUCCESS method=IPVSSmartTvTest.adobesessionTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:30Z" finished-at="2019-01-14T12:21:30Z">
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:32Z" finished-at="2019-04-30T04:57:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:30Z" finished-at="2019-01-14T12:21:30Z">
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:32Z" finished-at="2019-04-30T04:57:32Z">
           <params>
             <param index="0">
               <value>
@@ -172,37 +172,37 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=bookmarksapiCHTR status=SUCCESS method=IPVSSmartTvTest.bookmarksapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=bookmarksapiCHTR status=SUCCESS method=IPVSSmartTvTest.bookmarksapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="bookmarksapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="bookmarksapiCHTR" duration-ms="1172" started-at="2019-01-14T12:21:30Z" finished-at="2019-01-14T12:21:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bookmarksapiCHTR -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:30Z" finished-at="2019-01-14T12:21:30Z">
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:32Z" finished-at="2019-04-30T04:57:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="337" started-at="2019-01-14T12:21:31Z" finished-at="2019-01-14T12:21:32Z">
+        <test-method status="PASS" signature="bookmarksapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="bookmarksapiCHTR" duration-ms="482" started-at="2019-04-30T04:57:32Z" finished-at="2019-04-30T04:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookmarksapiCHTR -->
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:32Z" finished-at="2019-04-30T04:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCleanupMethods -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:32Z" finished-at="2019-04-30T04:57:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=bookmarksapiCHTR status=SUCCESS method=IPVSSmartTvTest.bookmarksapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=bookmarksapiCHTR status=SUCCESS method=IPVSSmartTvTest.bookmarksapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="5" started-at="2019-01-14T12:21:32Z" finished-at="2019-01-14T12:21:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="2" started-at="2019-01-14T12:21:32Z" finished-at="2019-01-14T12:21:32Z">
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:32Z" finished-at="2019-04-30T04:57:32Z">
           <params>
             <param index="0">
               <value>
@@ -211,33 +211,37 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=bookmarksapiTWC status=SUCCESS method=IPVSSmartTvTest.bookmarksapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=bookmarksapiTWC status=SUCCESS method=IPVSSmartTvTest.bookmarksapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:32Z" finished-at="2019-01-14T12:21:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="bookmarksapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="bookmarksapiTWC" duration-ms="1254" started-at="2019-01-14T12:21:32Z" finished-at="2019-01-14T12:21:33Z">
+        <test-method status="PASS" signature="bookmarksapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="bookmarksapiTWC" duration-ms="490" started-at="2019-04-30T04:57:32Z" finished-at="2019-04-30T04:57:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookmarksapiTWC -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="331" started-at="2019-01-14T12:21:33Z" finished-at="2019-01-14T12:21:33Z">
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:32Z" finished-at="2019-04-30T04:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartup -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:33Z" finished-at="2019-04-30T04:57:33Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=bookmarksapiTWC status=SUCCESS method=IPVSSmartTvTest.bookmarksapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=bookmarksapiTWC status=SUCCESS method=IPVSSmartTvTest.bookmarksapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:33Z" finished-at="2019-01-14T12:21:33Z">
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:33Z" finished-at="2019-04-30T04:57:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCleanupMethods -->
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:33Z" finished-at="2019-04-30T04:57:33Z">
           <params>
             <param index="0">
               <value>
@@ -246,109 +250,37 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=cdvrgetrecordingsapiCHTR status=FAILURE method=IPVSSmartTvTest.cdvrgetrecordingsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=cdvrgetrecordingsapiCHTR status=SUCCESS method=IPVSSmartTvTest.cdvrgetrecordingsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:33Z" finished-at="2019-01-14T12:21:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runCleanupMethods -->
-        <test-method status="FAIL" signature="cdvrgetrecordingsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="cdvrgetrecordingsapiCHTR" duration-ms="375" started-at="2019-01-14T12:21:33Z" finished-at="2019-01-14T12:21:33Z">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[error getting json data from https://pi.engnew-spectrum.net/kumodvr/api/cdvr/v1/users/46bcef3d943720ca9a701506b3780ebe/recordings?status=ALL&requestId=STHGetRecordings-Charter:
-HttpResponse:
-HTTP/1.1 403 Forbidden
-Connection: keep-alive
-Content-Length: 10
-Content-Type: text/plain
-Date: Mon, 14 Jan 2019 12:21:33 GMT
-Server: openresty
-Transfer-Encoding: chunked
-X-PI-Auth-Failure: 9001
-x-trace-id: 5ea609f28177-4daa-000000000008b4d9
-
-Forbidden
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/kumodvr/api/cdvr/v1/users/46bcef3d943720ca9a701506b3780ebe/recordings?status=ALL&requestId=STHGetRecordings-Charter:
-HttpResponse:
-HTTP/1.1 403 Forbidden
-Connection: keep-alive
-Content-Length: 10
-Content-Type: text/plain
-Date: Mon, 14 Jan 2019 12:21:33 GMT
-Server: openresty
-Transfer-Encoding: chunked
-X-PI-Auth-Failure: 9001
-x-trace-id: 5ea609f28177-4daa-000000000008b4d9
-
-Forbidden
-
-at sth.ipvs.CustomRequest.getJson(CustomRequest.java:38)
-at sth.ipvs.IPVSSmartTvTest.cdvrgetrecordingsapiCHTR(IPVSSmartTvTest.java:396)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cdvrgetrecordingsapiCHTR -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:33Z" finished-at="2019-01-14T12:21:33Z">
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:33Z" finished-at="2019-04-30T04:57:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="351" started-at="2019-01-14T12:21:33Z" finished-at="2019-01-14T12:21:34Z">
+        <test-method status="PASS" signature="cdvrgetrecordingsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="cdvrgetrecordingsapiCHTR" duration-ms="3357" started-at="2019-04-30T04:57:33Z" finished-at="2019-04-30T04:57:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cdvrgetrecordingsapiCHTR -->
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:36Z" finished-at="2019-04-30T04:57:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCleanupMethods -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:36Z" finished-at="2019-04-30T04:57:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=cdvrgetrecordingsapiCHTR status=FAILURE method=IPVSSmartTvTest.cdvrgetrecordingsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=cdvrgetrecordingsapiCHTR status=SUCCESS method=IPVSSmartTvTest.cdvrgetrecordingsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:34Z" finished-at="2019-01-14T12:21:34Z">
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="2" started-at="2019-04-30T04:57:36Z" finished-at="2019-04-30T04:57:36Z">
           <params>
             <param index="0">
               <value>
@@ -357,113 +289,37 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=cdvrgetrecordingsapiTWC status=FAILURE method=IPVSSmartTvTest.cdvrgetrecordingsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=cdvrgetrecordingsapiTWC status=SUCCESS method=IPVSSmartTvTest.cdvrgetrecordingsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:34Z" finished-at="2019-01-14T12:21:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:34Z" finished-at="2019-01-14T12:21:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testStartup -->
-        <test-method status="FAIL" signature="cdvrgetrecordingsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="cdvrgetrecordingsapiTWC" duration-ms="329" started-at="2019-01-14T12:21:34Z" finished-at="2019-01-14T12:21:34Z">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[error getting json data from https://pi.engnew-spectrum.net/kumodvr/api/cdvr/v1/users/4e09854aaf4992240be1cc6935861c4e/recordings?status=ALL&requestId=STHGetRecordings-TWC:
-HttpResponse:
-HTTP/1.1 403 Forbidden
-Connection: keep-alive
-Content-Length: 10
-Content-Type: text/plain
-Date: Mon, 14 Jan 2019 12:21:34 GMT
-Server: openresty
-Transfer-Encoding: chunked
-X-PI-Auth-Failure: 9001
-x-trace-id: 5ea609f28177-4daa-000000000008b4da
-
-Forbidden
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/kumodvr/api/cdvr/v1/users/4e09854aaf4992240be1cc6935861c4e/recordings?status=ALL&requestId=STHGetRecordings-TWC:
-HttpResponse:
-HTTP/1.1 403 Forbidden
-Connection: keep-alive
-Content-Length: 10
-Content-Type: text/plain
-Date: Mon, 14 Jan 2019 12:21:34 GMT
-Server: openresty
-Transfer-Encoding: chunked
-X-PI-Auth-Failure: 9001
-x-trace-id: 5ea609f28177-4daa-000000000008b4da
-
-Forbidden
-
-at sth.ipvs.CustomRequest.getJson(CustomRequest.java:38)
-at sth.ipvs.IPVSSmartTvTest.cdvrgetrecordingsapiTWC(IPVSSmartTvTest.java:407)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method status="PASS" signature="cdvrgetrecordingsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="cdvrgetrecordingsapiTWC" duration-ms="2948" started-at="2019-04-30T04:57:36Z" finished-at="2019-04-30T04:57:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cdvrgetrecordingsapiTWC -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="349" started-at="2019-01-14T12:21:34Z" finished-at="2019-01-14T12:21:35Z">
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:36Z" finished-at="2019-04-30T04:57:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartup -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:39Z" finished-at="2019-04-30T04:57:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=cdvrgetrecordingsapiTWC status=FAILURE method=IPVSSmartTvTest.cdvrgetrecordingsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=cdvrgetrecordingsapiTWC status=SUCCESS method=IPVSSmartTvTest.cdvrgetrecordingsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:35Z" finished-at="2019-01-14T12:21:35Z">
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:39Z" finished-at="2019-04-30T04:57:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:35Z" finished-at="2019-01-14T12:21:35Z">
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="8" started-at="2019-04-30T04:57:39Z" finished-at="2019-04-30T04:57:39Z">
           <params>
             <param index="0">
               <value>
@@ -472,37 +328,37 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=favoritesChannelapiCHTR status=SUCCESS method=IPVSSmartTvTest.favoritesChannelapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=favoritesChannelapiCHTR status=SUCCESS method=IPVSSmartTvTest.favoritesChannelapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="favoritesChannelapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="favoritesChannelapiCHTR" duration-ms="397" started-at="2019-01-14T12:21:35Z" finished-at="2019-01-14T12:21:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- favoritesChannelapiCHTR -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:35Z" finished-at="2019-01-14T12:21:35Z">
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:39Z" finished-at="2019-04-30T04:57:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="418" started-at="2019-01-14T12:21:35Z" finished-at="2019-01-14T12:21:35Z">
+        <test-method status="PASS" signature="favoritesChannelapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="favoritesChannelapiCHTR" duration-ms="368" started-at="2019-04-30T04:57:39Z" finished-at="2019-04-30T04:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favoritesChannelapiCHTR -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:39Z" finished-at="2019-04-30T04:57:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=favoritesChannelapiCHTR status=SUCCESS method=IPVSSmartTvTest.favoritesChannelapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=favoritesChannelapiCHTR status=SUCCESS method=IPVSSmartTvTest.favoritesChannelapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:35Z" finished-at="2019-01-14T12:21:35Z">
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:39Z" finished-at="2019-04-30T04:57:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:35Z" finished-at="2019-01-14T12:21:35Z">
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="2" started-at="2019-04-30T04:57:39Z" finished-at="2019-04-30T04:57:39Z">
           <params>
             <param index="0">
               <value>
@@ -511,37 +367,37 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=favoritesChannelapiTWC status=SUCCESS method=IPVSSmartTvTest.favoritesChannelapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=favoritesChannelapiTWC status=SUCCESS method=IPVSSmartTvTest.favoritesChannelapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:35Z" finished-at="2019-01-14T12:21:35Z">
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:39Z" finished-at="2019-04-30T04:57:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="favoritesChannelapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="favoritesChannelapiTWC" duration-ms="402" started-at="2019-01-14T12:21:35Z" finished-at="2019-01-14T12:21:36Z">
+        <test-method status="PASS" signature="favoritesChannelapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="favoritesChannelapiTWC" duration-ms="348" started-at="2019-04-30T04:57:39Z" finished-at="2019-04-30T04:57:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- favoritesChannelapiTWC -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="326" started-at="2019-01-14T12:21:36Z" finished-at="2019-01-14T12:21:36Z">
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:40Z" finished-at="2019-04-30T04:57:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=favoritesChannelapiTWC status=SUCCESS method=IPVSSmartTvTest.favoritesChannelapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=favoritesChannelapiTWC status=SUCCESS method=IPVSSmartTvTest.favoritesChannelapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:36Z" finished-at="2019-01-14T12:21:36Z">
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:40Z" finished-at="2019-04-30T04:57:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:36Z" finished-at="2019-01-14T12:21:36Z">
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:40Z" finished-at="2019-04-30T04:57:40Z">
           <params>
             <param index="0">
               <value>
@@ -550,37 +406,37 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=fipsapiCHTR status=SUCCESS method=IPVSSmartTvTest.fipsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=fipsapiCHTR status=SUCCESS method=IPVSSmartTvTest.fipsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:36Z" finished-at="2019-01-14T12:21:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="fipsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="fipsapiCHTR" duration-ms="421" started-at="2019-01-14T12:21:36Z" finished-at="2019-01-14T12:21:36Z">
+        <test-method status="PASS" signature="fipsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="fipsapiCHTR" duration-ms="360" started-at="2019-04-30T04:57:40Z" finished-at="2019-04-30T04:57:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fipsapiCHTR -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="332" started-at="2019-01-14T12:21:36Z" finished-at="2019-01-14T12:21:37Z">
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:40Z" finished-at="2019-04-30T04:57:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartup -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:40Z" finished-at="2019-04-30T04:57:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=fipsapiCHTR status=SUCCESS method=IPVSSmartTvTest.fipsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=fipsapiCHTR status=SUCCESS method=IPVSSmartTvTest.fipsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:37Z" finished-at="2019-01-14T12:21:37Z">
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:40Z" finished-at="2019-04-30T04:57:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:37Z" finished-at="2019-01-14T12:21:37Z">
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:40Z" finished-at="2019-04-30T04:57:40Z">
           <params>
             <param index="0">
               <value>
@@ -589,37 +445,37 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=fipsapiTWC status=SUCCESS method=IPVSSmartTvTest.fipsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=fipsapiTWC status=SUCCESS method=IPVSSmartTvTest.fipsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:37Z" finished-at="2019-01-14T12:21:37Z">
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:40Z" finished-at="2019-04-30T04:57:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="fipsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="fipsapiTWC" duration-ms="394" started-at="2019-01-14T12:21:37Z" finished-at="2019-01-14T12:21:37Z">
+        <test-method status="PASS" signature="fipsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="fipsapiTWC" duration-ms="369" started-at="2019-04-30T04:57:40Z" finished-at="2019-04-30T04:57:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fipsapiTWC -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="338" started-at="2019-01-14T12:21:37Z" finished-at="2019-01-14T12:21:38Z">
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="4" started-at="2019-04-30T04:57:41Z" finished-at="2019-04-30T04:57:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=fipsapiTWC status=SUCCESS method=IPVSSmartTvTest.fipsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=fipsapiTWC status=SUCCESS method=IPVSSmartTvTest.fipsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:38Z" finished-at="2019-01-14T12:21:38Z">
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:41Z" finished-at="2019-04-30T04:57:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:38Z" finished-at="2019-01-14T12:21:38Z">
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:41Z" finished-at="2019-04-30T04:57:41Z">
           <params>
             <param index="0">
               <value>
@@ -628,37 +484,37 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=guidegridapiCHTR status=SUCCESS method=IPVSSmartTvTest.guidegridapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=guidegridapiCHTR status=SUCCESS method=IPVSSmartTvTest.guidegridapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:38Z" finished-at="2019-01-14T12:21:38Z">
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="2" started-at="2019-04-30T04:57:41Z" finished-at="2019-04-30T04:57:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="guidegridapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="guidegridapiCHTR" duration-ms="1303" started-at="2019-01-14T12:21:38Z" finished-at="2019-01-14T12:21:39Z">
+        <test-method status="PASS" signature="guidegridapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="guidegridapiCHTR" duration-ms="1598" started-at="2019-04-30T04:57:41Z" finished-at="2019-04-30T04:57:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- guidegridapiCHTR -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="339" started-at="2019-01-14T12:21:39Z" finished-at="2019-01-14T12:21:39Z">
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="2" started-at="2019-04-30T04:57:42Z" finished-at="2019-04-30T04:57:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=guidegridapiCHTR status=SUCCESS method=IPVSSmartTvTest.guidegridapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=guidegridapiCHTR status=SUCCESS method=IPVSSmartTvTest.guidegridapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:39Z" finished-at="2019-01-14T12:21:39Z">
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:42Z" finished-at="2019-04-30T04:57:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="2" started-at="2019-01-14T12:21:39Z" finished-at="2019-01-14T12:21:39Z">
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:42Z" finished-at="2019-04-30T04:57:42Z">
           <params>
             <param index="0">
               <value>
@@ -667,37 +523,37 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=guidegridapiTWC status=SUCCESS method=IPVSSmartTvTest.guidegridapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=guidegridapiTWC status=SUCCESS method=IPVSSmartTvTest.guidegridapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="guidegridapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="guidegridapiTWC" duration-ms="1257" started-at="2019-01-14T12:21:39Z" finished-at="2019-01-14T12:21:40Z">
+        <test-method status="PASS" signature="guidegridapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="guidegridapiTWC" duration-ms="1831" started-at="2019-04-30T04:57:42Z" finished-at="2019-04-30T04:57:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- guidegridapiTWC -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:39Z" finished-at="2019-01-14T12:21:39Z">
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:42Z" finished-at="2019-04-30T04:57:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="341" started-at="2019-01-14T12:21:40Z" finished-at="2019-01-14T12:21:41Z">
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:44Z" finished-at="2019-04-30T04:57:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=guidegridapiTWC status=SUCCESS method=IPVSSmartTvTest.guidegridapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=guidegridapiTWC status=SUCCESS method=IPVSSmartTvTest.guidegridapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:41Z" finished-at="2019-01-14T12:21:41Z">
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:44Z" finished-at="2019-04-30T04:57:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:41Z" finished-at="2019-01-14T12:21:41Z">
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="2" started-at="2019-04-30T04:57:44Z" finished-at="2019-04-30T04:57:44Z">
           <params>
             <param index="0">
               <value>
@@ -706,33 +562,37 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=lineupapiCHTR status=SUCCESS method=IPVSSmartTvTest.lineupapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=lineupapiCHTR status=SUCCESS method=IPVSSmartTvTest.lineupapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:41Z" finished-at="2019-01-14T12:21:41Z">
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:44Z" finished-at="2019-04-30T04:57:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="lineupapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="lineupapiCHTR" duration-ms="391" started-at="2019-01-14T12:21:41Z" finished-at="2019-01-14T12:21:41Z">
+        <test-method status="PASS" signature="lineupapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="lineupapiCHTR" duration-ms="363" started-at="2019-04-30T04:57:44Z" finished-at="2019-04-30T04:57:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lineupapiCHTR -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="336" started-at="2019-01-14T12:21:41Z" finished-at="2019-01-14T12:21:42Z">
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="2" started-at="2019-04-30T04:57:44Z" finished-at="2019-04-30T04:57:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=lineupapiCHTR status=SUCCESS method=IPVSSmartTvTest.lineupapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=lineupapiCHTR status=SUCCESS method=IPVSSmartTvTest.lineupapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:42Z" finished-at="2019-01-14T12:21:42Z">
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:44Z" finished-at="2019-04-30T04:57:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCleanupMethods -->
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="2" started-at="2019-04-30T04:57:44Z" finished-at="2019-04-30T04:57:44Z">
           <params>
             <param index="0">
               <value>
@@ -741,41 +601,37 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=linuepapiTWC status=SUCCESS method=IPVSSmartTvTest.linuepapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=linuepapiTWC status=SUCCESS method=IPVSSmartTvTest.linuepapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:42Z" finished-at="2019-01-14T12:21:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="linuepapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="linuepapiTWC" duration-ms="386" started-at="2019-01-14T12:21:42Z" finished-at="2019-01-14T12:21:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- linuepapiTWC -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:42Z" finished-at="2019-01-14T12:21:42Z">
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:44Z" finished-at="2019-04-30T04:57:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="330" started-at="2019-01-14T12:21:42Z" finished-at="2019-01-14T12:21:42Z">
+        <test-method status="PASS" signature="linuepapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="linuepapiTWC" duration-ms="359" started-at="2019-04-30T04:57:44Z" finished-at="2019-04-30T04:57:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linuepapiTWC -->
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:45Z" finished-at="2019-04-30T04:57:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCleanupMethods -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:45Z" finished-at="2019-04-30T04:57:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=linuepapiTWC status=SUCCESS method=IPVSSmartTvTest.linuepapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=linuepapiTWC status=SUCCESS method=IPVSSmartTvTest.linuepapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:42Z" finished-at="2019-01-14T12:21:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:42Z" finished-at="2019-01-14T12:21:42Z">
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:45Z" finished-at="2019-04-30T04:57:45Z">
           <params>
             <param index="0">
               <value>
@@ -784,456 +640,60 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=locationapiCHTR status=SUCCESS method=IPVSSmartTvTest.locationapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
+                <![CDATA[[TestResult name=locationapiCHTR status=FAILURE method=IPVSSmartTvTest.locationapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:42Z" finished-at="2019-01-14T12:21:42Z">
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:45Z" finished-at="2019-04-30T04:57:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="locationapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="locationapiCHTR" duration-ms="423" started-at="2019-01-14T12:21:42Z" finished-at="2019-01-14T12:21:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- locationapiCHTR -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="340" started-at="2019-01-14T12:21:43Z" finished-at="2019-01-14T12:21:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=locationapiCHTR status=SUCCESS method=IPVSSmartTvTest.locationapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:43Z" finished-at="2019-01-14T12:21:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:43Z" finished-at="2019-01-14T12:21:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void sth.ipvs.IPVSSmartTvTest.locationapiTWC()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=locationapiTWC status=SUCCESS method=IPVSSmartTvTest.locationapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:43Z" finished-at="2019-01-14T12:21:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="locationapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="locationapiTWC" duration-ms="420" started-at="2019-01-14T12:21:43Z" finished-at="2019-01-14T12:21:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- locationapiTWC -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="327" started-at="2019-01-14T12:21:43Z" finished-at="2019-01-14T12:21:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=locationapiTWC status=SUCCESS method=IPVSSmartTvTest.locationapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:44Z" finished-at="2019-01-14T12:21:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="2" started-at="2019-01-14T12:21:44Z" finished-at="2019-01-14T12:21:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void sth.ipvs.IPVSSmartTvTest.parentalBlockedChannelsapiCHTR()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=parentalBlockedChannelsapiCHTR status=SUCCESS method=IPVSSmartTvTest.parentalBlockedChannelsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="parentalBlockedChannelsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="parentalBlockedChannelsapiCHTR" duration-ms="12087" started-at="2019-01-14T12:21:44Z" finished-at="2019-01-14T12:21:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parentalBlockedChannelsapiCHTR -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:44Z" finished-at="2019-01-14T12:21:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="1583" started-at="2019-01-14T12:21:56Z" finished-at="2019-01-14T12:21:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=parentalBlockedChannelsapiCHTR status=SUCCESS method=IPVSSmartTvTest.parentalBlockedChannelsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:57Z" finished-at="2019-01-14T12:21:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void sth.ipvs.IPVSSmartTvTest.parentalBlockedChannelsapiTWC()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=parentalBlockedChannelsapiTWC status=SUCCESS method=IPVSSmartTvTest.parentalBlockedChannelsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:57Z" finished-at="2019-01-14T12:21:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:57Z" finished-at="2019-01-14T12:21:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="parentalBlockedChannelsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="parentalBlockedChannelsapiTWC" duration-ms="9576" started-at="2019-01-14T12:21:57Z" finished-at="2019-01-14T12:22:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parentalBlockedChannelsapiTWC -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="649" started-at="2019-01-14T12:22:07Z" finished-at="2019-01-14T12:22:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=parentalBlockedChannelsapiTWC status=SUCCESS method=IPVSSmartTvTest.parentalBlockedChannelsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-01-14T12:22:08Z" finished-at="2019-01-14T12:22:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-01-14T12:22:08Z" finished-at="2019-01-14T12:22:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void sth.ipvs.IPVSSmartTvTest.parentalcontrolcallCHTR()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=parentalcontrolcallCHTR status=SUCCESS method=IPVSSmartTvTest.parentalcontrolcallCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="1" started-at="2019-01-14T12:22:08Z" finished-at="2019-01-14T12:22:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="parentalcontrolcallCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="parentalcontrolcallCHTR" duration-ms="409" started-at="2019-01-14T12:22:08Z" finished-at="2019-01-14T12:22:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parentalcontrolcallCHTR -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="322" started-at="2019-01-14T12:22:08Z" finished-at="2019-01-14T12:22:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=parentalcontrolcallCHTR status=SUCCESS method=IPVSSmartTvTest.parentalcontrolcallCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-01-14T12:22:08Z" finished-at="2019-01-14T12:22:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-01-14T12:22:08Z" finished-at="2019-01-14T12:22:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void sth.ipvs.IPVSSmartTvTest.parentalcontrolcallTWC()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=parentalcontrolcallTWC status=SUCCESS method=IPVSSmartTvTest.parentalcontrolcallTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-01-14T12:22:08Z" finished-at="2019-01-14T12:22:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="parentalcontrolcallTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="parentalcontrolcallTWC" duration-ms="410" started-at="2019-01-14T12:22:08Z" finished-at="2019-01-14T12:22:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parentalcontrolcallTWC -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="327" started-at="2019-01-14T12:22:09Z" finished-at="2019-01-14T12:22:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=parentalcontrolcallTWC status=SUCCESS method=IPVSSmartTvTest.parentalcontrolcallTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-01-14T12:22:09Z" finished-at="2019-01-14T12:22:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="0" started-at="2019-01-14T12:22:09Z" finished-at="2019-01-14T12:22:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void sth.ipvs.IPVSSmartTvTest.parentalratingapiTWC()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=parentalratingapiTWC status=SUCCESS method=IPVSSmartTvTest.parentalratingapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="1" started-at="2019-01-14T12:22:09Z" finished-at="2019-01-14T12:22:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="parentalratingapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="parentalratingapiTWC" duration-ms="388" started-at="2019-01-14T12:22:09Z" finished-at="2019-01-14T12:22:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parentalratingapiTWC -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="345" started-at="2019-01-14T12:22:10Z" finished-at="2019-01-14T12:22:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=parentalratingapiTWC status=SUCCESS method=IPVSSmartTvTest.parentalratingapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-01-14T12:22:10Z" finished-at="2019-01-14T12:22:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-01-14T12:22:10Z" finished-at="2019-01-14T12:22:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void sth.ipvs.IPVSSmartTvTest.parentalratingsapiCHTR()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=parentalratingsapiCHTR status=SUCCESS method=IPVSSmartTvTest.parentalratingsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-01-14T12:22:10Z" finished-at="2019-01-14T12:22:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="parentalratingsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="parentalratingsapiCHTR" duration-ms="405" started-at="2019-01-14T12:22:10Z" finished-at="2019-01-14T12:22:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parentalratingsapiCHTR -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="330" started-at="2019-01-14T12:22:10Z" finished-at="2019-01-14T12:22:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=parentalratingsapiCHTR status=SUCCESS method=IPVSSmartTvTest.parentalratingsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-01-14T12:22:11Z" finished-at="2019-01-14T12:22:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-01-14T12:22:11Z" finished-at="2019-01-14T12:22:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void sth.ipvs.IPVSSmartTvTest.watchListapiCHTR()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=watchListapiCHTR status=SUCCESS method=IPVSSmartTvTest.watchListapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="1" started-at="2019-01-14T12:22:11Z" finished-at="2019-01-14T12:22:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="watchListapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="watchListapiCHTR" duration-ms="1217" started-at="2019-01-14T12:22:11Z" finished-at="2019-01-14T12:22:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- watchListapiCHTR -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="328" started-at="2019-01-14T12:22:12Z" finished-at="2019-01-14T12:22:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=watchListapiCHTR status=SUCCESS method=IPVSSmartTvTest.watchListapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-01-14T12:22:12Z" finished-at="2019-01-14T12:22:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-01-14T12:22:12Z" finished-at="2019-01-14T12:22:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void sth.ipvs.IPVSSmartTvTest.watchListapiTWC()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=watchListapiTWC status=SUCCESS method=IPVSSmartTvTest.watchListapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-01-14T12:22:12Z" finished-at="2019-01-14T12:22:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="watchListapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="watchListapiTWC" duration-ms="630" started-at="2019-01-14T12:22:12Z" finished-at="2019-01-14T12:22:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- watchListapiTWC -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="reportTest" is-config="true" duration-ms="325" started-at="2019-01-14T12:22:13Z" finished-at="2019-01-14T12:22:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=watchListapiTWC status=SUCCESS method=IPVSSmartTvTest.watchListapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@37d4349f]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-01-14T12:22:13Z" finished-at="2019-01-14T12:22:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runCleanupMethods -->
-      </class> <!-- sth.ipvs.IPVSSmartTvTest -->
-      <class name="sth.ipvs.IPVSCapabilitiesTest">
-        <test-method status="PASS" signature="initializeIPVS()[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@7c711375]" name="initializeIPVS" is-config="true" duration-ms="474" started-at="2019-01-14T12:20:38Z" finished-at="2019-01-14T12:20:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeIPVS -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@7c711375]" name="setupSTHTest" is-config="true" duration-ms="6" started-at="2019-01-14T12:20:39Z" finished-at="2019-01-14T12:20:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void sth.ipvs.IPVSCapabilitiesTest.ipvscapabilitiescallCHTR()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=ipvscapabilitiescallCHTR status=FAILURE method=IPVSCapabilitiesTest.ipvscapabilitiescallCHTR()[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@7c711375] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@7c711375]" name="testStartup" is-config="true" duration-ms="1" started-at="2019-01-14T12:20:39Z" finished-at="2019-01-14T12:20:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testStartup -->
-        <test-method status="FAIL" signature="ipvscapabilitiescallCHTR()[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@7c711375]" name="ipvscapabilitiescallCHTR" duration-ms="33310" started-at="2019-01-14T12:20:39Z" finished-at="2019-01-14T12:21:12Z">
+        <test-method status="FAIL" signature="locationapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="locationapiCHTR" duration-ms="359" started-at="2019-04-30T04:57:45Z" finished-at="2019-04-30T04:57:45Z">
           <exception class="java.lang.RuntimeException">
             <message>
-              <![CDATA[error getting json data from https://pi.engnew-spectrum.net/api/smarttv/user/capabilities/v3?customerGuid=51585793&ip=1.1.1.1&mso=CHARTER&requestId=STHCapabilitiesCheck-Charter:
+              <![CDATA[error getting json data from https://pi.engnew-spectrum.net/api/smarttv/location/v1?customerGuid=44188798&ip=1.1.1.1&mso=CHARTER&requestId=STHLocation-Charter:
 HttpResponse:
-HTTP/1.1 504 Gateway Timeout
+HTTP/1.1 500 Internal Server Error
+Access-Control-Allow-Headers: WWW-Authenticate,Keep-Alive,User-Agent,X-Requested-With,Cache-Control,Content-Type,X-WayfarerEID
+Access-Control-Allow-Methods: GET, DELETE, POST, PUT, OPTIONS
+Cache-Control: no-cache,private,no-store
 Connection: keep-alive
-Content-Length: 176
-Content-Type: text/html
-Date: Mon, 14 Jan 2019 12:21:12 GMT
+Content-Length: 33
+Content-Type: application/json; charset=utf-8
+Date: Tue, 30 Apr 2019 04:57:45 GMT
+Failure-Trace: Saint_500_Failure getting BehindOwnModem from saint
+Pragma: no-cache
 Server: openresty
-x-trace-id: 5ea609f28177-4daa-000000000008b461
+X-Failure-Message: Failed to obtain BehindOwnModem from saint: Required property [sessionId] not found
+X-PI-Datacenter: CTEC
+x-trace-id: 440bb648ba0f-4cb3-0000000000033242
 
-<html>
-<head><title>504 Gateway Time-out</title></head>
-<body bgcolor="white">
-<center><h1>504 Gateway Time-out</h1></center>
-<hr><center>nginx</center>
-</body>
-</html>
-]]>
+{"failure":"InternalServerError"}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/api/smarttv/user/capabilities/v3?customerGuid=51585793&ip=1.1.1.1&mso=CHARTER&requestId=STHCapabilitiesCheck-Charter:
+              <![CDATA[java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/api/smarttv/location/v1?customerGuid=44188798&ip=1.1.1.1&mso=CHARTER&requestId=STHLocation-Charter:
 HttpResponse:
-HTTP/1.1 504 Gateway Timeout
+HTTP/1.1 500 Internal Server Error
+Access-Control-Allow-Headers: WWW-Authenticate,Keep-Alive,User-Agent,X-Requested-With,Cache-Control,Content-Type,X-WayfarerEID
+Access-Control-Allow-Methods: GET, DELETE, POST, PUT, OPTIONS
+Cache-Control: no-cache,private,no-store
 Connection: keep-alive
-Content-Length: 176
-Content-Type: text/html
-Date: Mon, 14 Jan 2019 12:21:12 GMT
+Content-Length: 33
+Content-Type: application/json; charset=utf-8
+Date: Tue, 30 Apr 2019 04:57:45 GMT
+Failure-Trace: Saint_500_Failure getting BehindOwnModem from saint
+Pragma: no-cache
 Server: openresty
-x-trace-id: 5ea609f28177-4daa-000000000008b461
+X-Failure-Message: Failed to obtain BehindOwnModem from saint: Required property [sessionId] not found
+X-PI-Datacenter: CTEC
+x-trace-id: 440bb648ba0f-4cb3-0000000000033242
 
-<html>
-<head><title>504 Gateway Time-out</title></head>
-<body bgcolor="white">
-<center><h1>504 Gateway Time-out</h1></center>
-<hr><center>nginx</center>
-</body>
-</html>
-
-at sth.ipvs.CustomRequest.getJson(CustomRequest.java:38)
-at sth.ipvs.IPVSCapabilitiesTest.ipvscapabilitiescallCHTR(IPVSCapabilitiesTest.java:31)
+{"failure":"InternalServerError"}
+at sth.ipvs.CustomRequest.getJson(CustomRequest.java:39)
+at sth.ipvs.IPVSSmartTvTest.locationapiCHTR(IPVSSmartTvTest.java:59)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1274,23 +734,729 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ipvscapabilitiescallCHTR -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@7c711375]" name="reportTest" is-config="true" duration-ms="1006" started-at="2019-01-14T12:21:12Z" finished-at="2019-01-14T12:21:13Z">
+        </test-method> <!-- locationapiCHTR -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:45Z" finished-at="2019-04-30T04:57:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ipvscapabilitiescallCHTR status=FAILURE method=IPVSCapabilitiesTest.ipvscapabilitiescallCHTR()[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@7c711375] output={null}]]]>
+                <![CDATA[[TestResult name=locationapiCHTR status=FAILURE method=IPVSSmartTvTest.locationapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@7c711375]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:13Z" finished-at="2019-01-14T12:21:13Z">
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:45Z" finished-at="2019-04-30T04:57:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sth.ipvs.IPVSSmartTvTest.locationapiTWC()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=locationapiTWC status=FAILURE method=IPVSSmartTvTest.locationapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSTHTest -->
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:45Z" finished-at="2019-04-30T04:57:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runCleanupMethods -->
-        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@7c711375]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:13Z" finished-at="2019-01-14T12:21:13Z">
+        <test-method status="FAIL" signature="locationapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="locationapiTWC" duration-ms="358" started-at="2019-04-30T04:57:45Z" finished-at="2019-04-30T04:57:45Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[error getting json data from https://pi.engnew-spectrum.net/api/smarttv/location/v1?customerGuid=E4EDB341-C62E-E826-7D49-8514CCAB93E9&ip=1.1.1.1&mso=TWC&requestId=STHLocation-TWC:
+HttpResponse:
+HTTP/1.1 500 Internal Server Error
+Access-Control-Allow-Headers: WWW-Authenticate,Keep-Alive,User-Agent,X-Requested-With,Cache-Control,Content-Type,X-WayfarerEID
+Access-Control-Allow-Methods: GET, DELETE, POST, PUT, OPTIONS
+Cache-Control: no-cache,private,no-store
+Connection: keep-alive
+Content-Length: 33
+Content-Type: application/json; charset=utf-8
+Date: Tue, 30 Apr 2019 04:57:46 GMT
+Failure-Trace: Saint_500_Failure getting BehindOwnModem from saint
+Pragma: no-cache
+Server: openresty
+Server-Timing: intid;desc=33634ccee829097f
+X-Failure-Message: Failed to obtain BehindOwnModem from saint: Required property [sessionId] not found
+X-PI-Datacenter: CTEC
+x-trace-id: 440bb648ba0f-4cb3-0000000000033253
+
+{"failure":"InternalServerError"}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/api/smarttv/location/v1?customerGuid=E4EDB341-C62E-E826-7D49-8514CCAB93E9&ip=1.1.1.1&mso=TWC&requestId=STHLocation-TWC:
+HttpResponse:
+HTTP/1.1 500 Internal Server Error
+Access-Control-Allow-Headers: WWW-Authenticate,Keep-Alive,User-Agent,X-Requested-With,Cache-Control,Content-Type,X-WayfarerEID
+Access-Control-Allow-Methods: GET, DELETE, POST, PUT, OPTIONS
+Cache-Control: no-cache,private,no-store
+Connection: keep-alive
+Content-Length: 33
+Content-Type: application/json; charset=utf-8
+Date: Tue, 30 Apr 2019 04:57:46 GMT
+Failure-Trace: Saint_500_Failure getting BehindOwnModem from saint
+Pragma: no-cache
+Server: openresty
+Server-Timing: intid;desc=33634ccee829097f
+X-Failure-Message: Failed to obtain BehindOwnModem from saint: Required property [sessionId] not found
+X-PI-Datacenter: CTEC
+x-trace-id: 440bb648ba0f-4cb3-0000000000033253
+
+{"failure":"InternalServerError"}
+at sth.ipvs.CustomRequest.getJson(CustomRequest.java:39)
+at sth.ipvs.IPVSSmartTvTest.locationapiTWC(IPVSSmartTvTest.java:72)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locationapiTWC -->
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:45Z" finished-at="2019-04-30T04:57:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartup -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="2" started-at="2019-04-30T04:57:45Z" finished-at="2019-04-30T04:57:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=locationapiTWC status=FAILURE method=IPVSSmartTvTest.locationapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTest -->
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:45Z" finished-at="2019-04-30T04:57:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCleanupMethods -->
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:45Z" finished-at="2019-04-30T04:57:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sth.ipvs.IPVSSmartTvTest.parentalBlockedChannelsapiCHTR()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=parentalBlockedChannelsapiCHTR status=SUCCESS method=IPVSSmartTvTest.parentalBlockedChannelsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSTHTest -->
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:45Z" finished-at="2019-04-30T04:57:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartup -->
+        <test-method status="PASS" signature="parentalBlockedChannelsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="parentalBlockedChannelsapiCHTR" duration-ms="3046" started-at="2019-04-30T04:57:45Z" finished-at="2019-04-30T04:57:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parentalBlockedChannelsapiCHTR -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:49Z" finished-at="2019-04-30T04:57:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=parentalBlockedChannelsapiCHTR status=SUCCESS method=IPVSSmartTvTest.parentalBlockedChannelsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTest -->
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:49Z" finished-at="2019-04-30T04:57:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCleanupMethods -->
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:49Z" finished-at="2019-04-30T04:57:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sth.ipvs.IPVSSmartTvTest.parentalBlockedChannelsapiTWC()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=parentalBlockedChannelsapiTWC status=SUCCESS method=IPVSSmartTvTest.parentalBlockedChannelsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSTHTest -->
+        <test-method status="PASS" signature="parentalBlockedChannelsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="parentalBlockedChannelsapiTWC" duration-ms="2598" started-at="2019-04-30T04:57:49Z" finished-at="2019-04-30T04:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parentalBlockedChannelsapiTWC -->
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:49Z" finished-at="2019-04-30T04:57:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartup -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:51Z" finished-at="2019-04-30T04:57:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=parentalBlockedChannelsapiTWC status=SUCCESS method=IPVSSmartTvTest.parentalBlockedChannelsapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTest -->
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:51Z" finished-at="2019-04-30T04:57:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sth.ipvs.IPVSSmartTvTest.parentalcontrolcallCHTR()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=parentalcontrolcallCHTR status=SUCCESS method=IPVSSmartTvTest.parentalcontrolcallCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSTHTest -->
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:51Z" finished-at="2019-04-30T04:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCleanupMethods -->
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:51Z" finished-at="2019-04-30T04:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartup -->
+        <test-method status="PASS" signature="parentalcontrolcallCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="parentalcontrolcallCHTR" duration-ms="373" started-at="2019-04-30T04:57:51Z" finished-at="2019-04-30T04:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parentalcontrolcallCHTR -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:51Z" finished-at="2019-04-30T04:57:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=parentalcontrolcallCHTR status=SUCCESS method=IPVSSmartTvTest.parentalcontrolcallCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTest -->
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:51Z" finished-at="2019-04-30T04:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCleanupMethods -->
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:51Z" finished-at="2019-04-30T04:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartup -->
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:51Z" finished-at="2019-04-30T04:57:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sth.ipvs.IPVSSmartTvTest.parentalcontrolcallTWC()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=parentalcontrolcallTWC status=SUCCESS method=IPVSSmartTvTest.parentalcontrolcallTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSTHTest -->
+        <test-method status="PASS" signature="parentalcontrolcallTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="parentalcontrolcallTWC" duration-ms="366" started-at="2019-04-30T04:57:51Z" finished-at="2019-04-30T04:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parentalcontrolcallTWC -->
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:52Z" finished-at="2019-04-30T04:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCleanupMethods -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:52Z" finished-at="2019-04-30T04:57:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=parentalcontrolcallTWC status=SUCCESS method=IPVSSmartTvTest.parentalcontrolcallTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTest -->
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:52Z" finished-at="2019-04-30T04:57:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sth.ipvs.IPVSSmartTvTest.parentalratingapiTWC()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=parentalratingapiTWC status=SUCCESS method=IPVSSmartTvTest.parentalratingapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSTHTest -->
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:52Z" finished-at="2019-04-30T04:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartup -->
+        <test-method status="PASS" signature="parentalratingapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="parentalratingapiTWC" duration-ms="361" started-at="2019-04-30T04:57:52Z" finished-at="2019-04-30T04:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parentalratingapiTWC -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:52Z" finished-at="2019-04-30T04:57:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=parentalratingapiTWC status=SUCCESS method=IPVSSmartTvTest.parentalratingapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTest -->
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="2" started-at="2019-04-30T04:57:52Z" finished-at="2019-04-30T04:57:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sth.ipvs.IPVSSmartTvTest.parentalratingsapiCHTR()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=parentalratingsapiCHTR status=SUCCESS method=IPVSSmartTvTest.parentalratingsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSTHTest -->
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:52Z" finished-at="2019-04-30T04:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCleanupMethods -->
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:52Z" finished-at="2019-04-30T04:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartup -->
+        <test-method status="PASS" signature="parentalratingsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="parentalratingsapiCHTR" duration-ms="365" started-at="2019-04-30T04:57:52Z" finished-at="2019-04-30T04:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parentalratingsapiCHTR -->
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:53Z" finished-at="2019-04-30T04:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCleanupMethods -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:53Z" finished-at="2019-04-30T04:57:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=parentalratingsapiCHTR status=SUCCESS method=IPVSSmartTvTest.parentalratingsapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTest -->
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:53Z" finished-at="2019-04-30T04:57:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sth.ipvs.IPVSSmartTvTest.watchListapiCHTR()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=watchListapiCHTR status=SUCCESS method=IPVSSmartTvTest.watchListapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSTHTest -->
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:53Z" finished-at="2019-04-30T04:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartup -->
+        <test-method status="PASS" signature="watchListapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="watchListapiCHTR" duration-ms="458" started-at="2019-04-30T04:57:53Z" finished-at="2019-04-30T04:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- watchListapiCHTR -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:53Z" finished-at="2019-04-30T04:57:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=watchListapiCHTR status=SUCCESS method=IPVSSmartTvTest.watchListapiCHTR()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTest -->
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:53Z" finished-at="2019-04-30T04:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCleanupMethods -->
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="setupSTHTest" is-config="true" duration-ms="3" started-at="2019-04-30T04:57:53Z" finished-at="2019-04-30T04:57:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sth.ipvs.IPVSSmartTvTest.watchListapiTWC()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=watchListapiTWC status=SUCCESS method=IPVSSmartTvTest.watchListapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSTHTest -->
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:53Z" finished-at="2019-04-30T04:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartup -->
+        <test-method status="PASS" signature="watchListapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="watchListapiTWC" duration-ms="449" started-at="2019-04-30T04:57:53Z" finished-at="2019-04-30T04:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- watchListapiTWC -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="reportTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:53Z" finished-at="2019-04-30T04:57:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=watchListapiTWC status=SUCCESS method=IPVSSmartTvTest.watchListapiTWC()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTest -->
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSSmartTvTest@2e32ccc5]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:54Z" finished-at="2019-04-30T04:57:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCleanupMethods -->
+      </class> <!-- sth.ipvs.IPVSSmartTvTest -->
+      <class name="sth.ipvs.IPVSJiraTicketTest">
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:23Z" finished-at="2019-04-30T04:57:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sth.ipvs.IPVSJiraTicketTest.SVIPVS547()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SVIPVS547 status=FAILURE method=IPVSJiraTicketTest.SVIPVS547()[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSTHTest -->
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577]" name="testStartup" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:23Z" finished-at="2019-04-30T04:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartup -->
+        <test-method status="FAIL" signature="SVIPVS547()[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577]" name="SVIPVS547" duration-ms="274" started-at="2019-04-30T04:57:23Z" finished-at="2019-04-30T04:57:23Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[error getting json data from https://pi.engnew-spectrum.net/auth/jwt/token?customerGuid=E4EDB341-C62E-E826-7D49-8514CCAB93E9&requestId=SVIPVS-547:
+HttpResponse:
+HTTP/1.1 404 Not Found
+Connection: keep-alive
+Content-Length: 42
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 30 Apr 2019 04:57:24 GMT
+Server: openresty
+X-PI-Datacenter: CTEC
+X-PI-Latency: 1 millisecond
+x-trace-id: 440bb648ba0f-4cb3-00000000000331ce
+
+The requested resource could not be found.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: error getting json data from https://pi.engnew-spectrum.net/auth/jwt/token?customerGuid=E4EDB341-C62E-E826-7D49-8514CCAB93E9&requestId=SVIPVS-547:
+HttpResponse:
+HTTP/1.1 404 Not Found
+Connection: keep-alive
+Content-Length: 42
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 30 Apr 2019 04:57:24 GMT
+Server: openresty
+X-PI-Datacenter: CTEC
+X-PI-Latency: 1 millisecond
+x-trace-id: 440bb648ba0f-4cb3-00000000000331ce
+
+The requested resource could not be found.
+at sth.ipvs.CustomRequest.getJson(CustomRequest.java:39)
+at sth.ipvs.IPVSJiraTicketTest.SVIPVS547(IPVSJiraTicketTest.java:50)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SVIPVS547 -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577]" name="reportTest" is-config="true" duration-ms="6" started-at="2019-04-30T04:57:23Z" finished-at="2019-04-30T04:57:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SVIPVS547 status=FAILURE method=IPVSJiraTicketTest.SVIPVS547()[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTest -->
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:23Z" finished-at="2019-04-30T04:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCleanupMethods -->
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577]" name="setupSTHTest" is-config="true" duration-ms="2" started-at="2019-04-30T04:57:23Z" finished-at="2019-04-30T04:57:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sth.ipvs.IPVSJiraTicketTest.SVIPVS579OTTdisabled()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SVIPVS579OTTdisabled status=SUCCESS method=IPVSJiraTicketTest.SVIPVS579OTTdisabled()[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSTHTest -->
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:23Z" finished-at="2019-04-30T04:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartup -->
+        <test-method status="PASS" signature="SVIPVS579OTTdisabled()[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577]" name="SVIPVS579OTTdisabled" duration-ms="398" started-at="2019-04-30T04:57:23Z" finished-at="2019-04-30T04:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SVIPVS579OTTdisabled -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577]" name="reportTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:24Z" finished-at="2019-04-30T04:57:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SVIPVS579OTTdisabled status=SUCCESS method=IPVSJiraTicketTest.SVIPVS579OTTdisabled()[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTest -->
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:24Z" finished-at="2019-04-30T04:57:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sth.ipvs.IPVSJiraTicketTest.SVIPVS579OTTenabled()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SVIPVS579OTTenabled status=SUCCESS method=IPVSJiraTicketTest.SVIPVS579OTTenabled()[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSTHTest -->
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:24Z" finished-at="2019-04-30T04:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCleanupMethods -->
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577]" name="testStartup" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:24Z" finished-at="2019-04-30T04:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartup -->
+        <test-method status="PASS" signature="SVIPVS579OTTenabled()[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577]" name="SVIPVS579OTTenabled" duration-ms="365" started-at="2019-04-30T04:57:24Z" finished-at="2019-04-30T04:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SVIPVS579OTTenabled -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577]" name="reportTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:24Z" finished-at="2019-04-30T04:57:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SVIPVS579OTTenabled status=SUCCESS method=IPVSJiraTicketTest.SVIPVS579OTTenabled()[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTest -->
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:24Z" finished-at="2019-04-30T04:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCleanupMethods -->
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577]" name="setupSTHTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:24Z" finished-at="2019-04-30T04:57:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sth.ipvs.IPVSJiraTicketTest.SVIPVS657()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SVIPVS657 status=SUCCESS method=IPVSJiraTicketTest.SVIPVS657()[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSTHTest -->
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577]" name="testStartup" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:24Z" finished-at="2019-04-30T04:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartup -->
+        <test-method status="PASS" signature="SVIPVS657()[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577]" name="SVIPVS657" duration-ms="417" started-at="2019-04-30T04:57:24Z" finished-at="2019-04-30T04:57:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SVIPVS657 -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577]" name="reportTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:25Z" finished-at="2019-04-30T04:57:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SVIPVS657 status=SUCCESS method=IPVSJiraTicketTest.SVIPVS657()[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTest -->
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSJiraTicketTest@3224a577]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:25Z" finished-at="2019-04-30T04:57:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCleanupMethods -->
+      </class> <!-- sth.ipvs.IPVSJiraTicketTest -->
+      <class name="sth.ipvs.IPVSCapabilitiesTest">
+        <test-method status="PASS" signature="initializeIPVS()[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@f627d13]" name="initializeIPVS" is-config="true" duration-ms="813" started-at="2019-04-30T04:57:19Z" finished-at="2019-04-30T04:57:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeIPVS -->
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@f627d13]" name="setupSTHTest" is-config="true" duration-ms="12" started-at="2019-04-30T04:57:20Z" finished-at="2019-04-30T04:57:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sth.ipvs.IPVSCapabilitiesTest.ipvscapabilitiescallCHTR()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ipvscapabilitiescallCHTR status=SUCCESS method=IPVSCapabilitiesTest.ipvscapabilitiescallCHTR()[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@f627d13] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSTHTest -->
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@f627d13]" name="testStartup" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:20Z" finished-at="2019-04-30T04:57:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartup -->
+        <test-method status="PASS" signature="ipvscapabilitiescallCHTR()[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@f627d13]" name="ipvscapabilitiescallCHTR" duration-ms="2960" started-at="2019-04-30T04:57:20Z" finished-at="2019-04-30T04:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ipvscapabilitiescallCHTR -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@f627d13]" name="reportTest" is-config="true" duration-ms="63" started-at="2019-04-30T04:57:23Z" finished-at="2019-04-30T04:57:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ipvscapabilitiescallCHTR status=SUCCESS method=IPVSCapabilitiesTest.ipvscapabilitiescallCHTR()[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@f627d13] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTest -->
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@f627d13]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:23Z" finished-at="2019-04-30T04:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCleanupMethods -->
+        <test-method status="PASS" signature="setupSTHTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@f627d13]" name="setupSTHTest" is-config="true" duration-ms="2" started-at="2019-04-30T04:57:23Z" finished-at="2019-04-30T04:57:23Z">
           <params>
             <param index="0">
               <value>
@@ -1299,33 +1465,33 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=ipvscapabilitiescallTWC status=SUCCESS method=IPVSCapabilitiesTest.ipvscapabilitiescallTWC()[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@7c711375] output={null}]]]>
+                <![CDATA[[TestResult name=ipvscapabilitiescallTWC status=SUCCESS method=IPVSCapabilitiesTest.ipvscapabilitiescallTWC()[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@f627d13] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSTHTest -->
-        <test-method status="PASS" signature="ipvscapabilitiescallTWC()[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@7c711375]" name="ipvscapabilitiescallTWC" duration-ms="536" started-at="2019-01-14T12:21:13Z" finished-at="2019-01-14T12:21:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ipvscapabilitiescallTWC -->
-        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@7c711375]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-01-14T12:21:13Z" finished-at="2019-01-14T12:21:13Z">
+        <test-method status="PASS" signature="testStartup()[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@f627d13]" name="testStartup" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:23Z" finished-at="2019-04-30T04:57:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartup -->
-        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@7c711375]" name="reportTest" is-config="true" duration-ms="339" started-at="2019-01-14T12:21:13Z" finished-at="2019-01-14T12:21:14Z">
+        <test-method status="PASS" signature="ipvscapabilitiescallTWC()[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@f627d13]" name="ipvscapabilitiescallTWC" duration-ms="367" started-at="2019-04-30T04:57:23Z" finished-at="2019-04-30T04:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ipvscapabilitiescallTWC -->
+        <test-method status="PASS" signature="reportTest(org.testng.ITestResult)[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@f627d13]" name="reportTest" is-config="true" duration-ms="1" started-at="2019-04-30T04:57:23Z" finished-at="2019-04-30T04:57:23Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ipvscapabilitiescallTWC status=SUCCESS method=IPVSCapabilitiesTest.ipvscapabilitiescallTWC()[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@7c711375] output={null}]]]>
+                <![CDATA[[TestResult name=ipvscapabilitiescallTWC status=SUCCESS method=IPVSCapabilitiesTest.ipvscapabilitiescallTWC()[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@f627d13] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTest -->
-        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@7c711375]" name="runCleanupMethods" is-config="true" duration-ms="1" started-at="2019-01-14T12:21:14Z" finished-at="2019-01-14T12:21:14Z">
+        <test-method status="PASS" signature="runCleanupMethods()[pri:0, instance:sth.ipvs.IPVSCapabilitiesTest@f627d13]" name="runCleanupMethods" is-config="true" duration-ms="0" started-at="2019-04-30T04:57:23Z" finished-at="2019-04-30T04:57:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runCleanupMethods -->

@@ -3,25 +3,25 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test thread-count="5" verbose="0" name="Command line test(failed)">
     <classes>
-      <class name="sth.ipvs.IPVSCapabilitiesTest">
+      <class name="sth.ipvs.IPVSJiraTicketTest">
         <methods>
           <include name="initializeIPVS"/>
+          <include name="SVIPVS547"/>
           <include name="setupSTHTest"/>
           <include name="testStartup"/>
           <include name="reportTest"/>
           <include name="runCleanupMethods"/>
-          <include name="ipvscapabilitiescallCHTR"/>
         </methods>
-      </class> <!-- sth.ipvs.IPVSCapabilitiesTest -->
+      </class> <!-- sth.ipvs.IPVSJiraTicketTest -->
       <class name="sth.ipvs.IPVSSmartTvTest">
         <methods>
           <include name="initializeIPVS"/>
-          <include name="cdvrgetrecordingsapiTWC"/>
           <include name="setupSTHTest"/>
           <include name="testStartup"/>
           <include name="reportTest"/>
           <include name="runCleanupMethods"/>
-          <include name="cdvrgetrecordingsapiCHTR"/>
+          <include name="locationapiTWC"/>
+          <include name="locationapiCHTR"/>
         </methods>
       </class> <!-- sth.ipvs.IPVSSmartTvTest -->
     </classes>
