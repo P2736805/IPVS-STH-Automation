@@ -94,7 +94,78 @@ public class IPVSSmartTvTest extends IPVSBaseTest {
 					.query("customerGuid", "44201648")
 					.query("mso", "CHARTER")
 					.query("cacheByPass", "true")
-					.query("requestId", "parentalratingcheck")
+					.query("requestId", "saintentitlementinfo")
+					.query("req", "Entitlements")
+					.getJson();
+		System.out.println(response);
+	}
+	
+	@Test
+	@TestDescription("Testing CHTR Account IPVS Saint Info api Integration into STH /saint/api/customer STHParentalRatings-Charter")
+	public void saintpreferencesinfo() {
+		JSON response = executeSmartv().client("1.1.1.1")
+					.saintinfopath()
+					.query("customerGuid", "44201648")
+					.query("mso", "CHARTER")
+					.query("cacheByPass", "true")
+					.query("requestId", "saintpreferencesinfo")
+					.query("req", "Preferences")
+					.getJson();
+		System.out.println(response);
+	}
+	
+	@Test
+	@TestDescription("Testing CHTR Account IPVS Saint Info api Integration into STH /saint/api/customer STHParentalRatings-Charter")
+	public void saintlineupinfo() {
+		JSON response = executeSmartv().client("1.1.1.1")
+					.saintinfopath()
+					.query("customerGuid", "44201648")
+					.query("mso", "CHARTER")
+					.query("cacheByPass", "true")
+					.query("requestId", "saintlineupinfo")
+					.query("req", "MarketLineup")
+					.getJson();
+		System.out.println(response);
+	}
+	
+	@Test
+	@TestDescription("Testing CHTR Account IPVS Saint Info api Integration into STH /saint/api/customer STHParentalRatings-Charter")
+	public void saintmetadatainfo() {
+		JSON response = executeSmartv().client("1.1.1.1")
+					.saintinfopath()
+					.query("customerGuid", "44201648")
+					.query("mso", "CHARTER")
+					.query("cacheByPass", "true")
+					.query("requestId", "saintmetadatainfo")
+					.query("req", "Metadata")
+					.getJson();
+		System.out.println(response);
+	}
+	
+	@Test
+	@TestDescription("Testing CHTR Account IPVS Saint Info api Integration into STH /saint/api/customer STHParentalRatings-Charter")
+	public void saintdevicesinfo() {
+		JSON response = executeSmartv().client("1.1.1.1")
+					.saintinfopath()
+					.query("customerGuid", "44201648")
+					.query("mso", "CHARTER")
+					.query("cacheByPass", "true")
+					.query("requestId", "saintdevicesinfo")
+					.query("req", "Devices")
+					.getJson();
+		System.out.println(response);
+	}
+	
+	@Test
+	@TestDescription("Testing CHTR Account IPVS Saint Info api Integration into STH /saint/api/customer STHParentalRatings-Charter")
+	public void saintcustomerinfo() {
+		JSON response = executeSmartv().client("1.1.1.1")
+					.saintinfopath()
+					.query("customerGuid", "44201648")
+					.query("mso", "CHARTER")
+					.query("cacheByPass", "true")
+					.query("requestId", "saintcustomerinfo")
+					.query("req", "Customer")
 					.getJson();
 		System.out.println(response);
 	}
