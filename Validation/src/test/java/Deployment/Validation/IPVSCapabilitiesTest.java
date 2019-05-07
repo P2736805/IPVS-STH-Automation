@@ -38,4 +38,18 @@ public class IPVSCapabilitiesTest extends IPVSBaseTest {
 		System.out.println(response);
 
 	}
+	
+	@Test
+	@TestDescription("Testing TWC Account IPVS Capabilities call Integration into STH /api/smarttv/user/capabilities - STHCapabilitiesCheck-Charter")
+	public void ipvscapabilitiescallTWC() {
+		JSON response = execute().path()
+								 .client("1.1.1.1")
+								 .query("customerGuid", "E4EDB341-C62E-E826-7D49-8514CCAB93E9")
+								 .query("mso", "TWC")
+								 .query("requestId", "capabilitiesscheck-twc")
+								 .query("cacheByPass", "true")
+								 .getJson();
+		System.out.println(response);
+
+	}
 }
